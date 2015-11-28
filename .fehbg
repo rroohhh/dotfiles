@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --bg-fill '/home/robin/.config/background/current.png' 
+feh  --bg-fill '/home/robin/background.png' 
