@@ -1,3 +1,3 @@
 
-
-. /home/robin/torch/install/bin/torch-activate
+. /home/soundlocate/torch/install/bin/torch-activate
+xrdb -merge $HOME .Xresources

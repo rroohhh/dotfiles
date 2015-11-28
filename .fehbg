@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --bg-fill '/home/robin/background.png' 
+feh  --bg-fill '/home/soundlocate/background.png' 

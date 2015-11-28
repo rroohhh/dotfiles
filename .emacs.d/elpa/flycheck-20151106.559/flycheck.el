@@ -2922,8 +2922,7 @@ first.  Levels of the same severity are compared by name."
      (t (< severity1 severity2)))))
 
 (defun flycheck-assert-error-list-p (errors)
-  "Assert that all items in ERRORS are of `flycheck-error' type.
-
+  "Assert that all items in ERRORS are of `flycheck-error' type.
 Signal an error if any item in ERRORS is not a `flycheck-error'
 object, as by `flycheck-error-p'.  Otherwise return ERRORS
 again."
