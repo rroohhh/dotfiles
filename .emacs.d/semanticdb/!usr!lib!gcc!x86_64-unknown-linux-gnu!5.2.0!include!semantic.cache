@@ -1,0 +1,266 @@
+;; Object include/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "include/"
+  :tables
+  (list
+    (semanticdb-table "stddef.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_STDDEF_H" variable (:constant-flag t) nil [1632 1641])
+            ("_STDDEF_H_" variable (:constant-flag t) nil [1650 1660])
+            ("_ANSI_STDDEF_H" variable (:constant-flag t) nil [1719 1733])
+            ("_PTRDIFF_T" variable (:constant-flag t) nil [5229 5239])
+            ("_T_PTRDIFF_" variable (:constant-flag t) nil [5248 5259])
+            ("_T_PTRDIFF" variable (:constant-flag t) nil [5268 5278])
+            ("__PTRDIFF_T" variable (:constant-flag t) nil [5287 5298])
+            ("_PTRDIFF_T_" variable (:constant-flag t) nil [5307 5318])
+            ("_BSD_PTRDIFF_T_" variable (:constant-flag t) nil [5327 5342])
+            ("___int_ptrdiff_t_h" variable (:constant-flag t) nil [5351 5369])
+            ("_GCC_PTRDIFF_T" variable (:constant-flag t) nil [5378 5392])
+            ("_PTRDIFF_T_DECLARED" variable (:constant-flag t) nil [5401 5420])
+            ("__PTRDIFF_TYPE__" variable (:constant-flag t) nil [5454 5470])
+            ("ptrdiff_t" type
+               (:typedef ("long int")
+                :type "typedef")
+                nil [5487 5522])
+            ("__size_t__" variable (:constant-flag t) nil [6545 6555])
+            ("__SIZE_T__" variable (:constant-flag t) nil [6575 6585])
+            ("_SIZE_T" variable (:constant-flag t) nil [6615 6622])
+            ("_SYS_SIZE_T_H" variable (:constant-flag t) nil [6631 6644])
+            ("_T_SIZE_" variable (:constant-flag t) nil [6653 6661])
+            ("_T_SIZE" variable (:constant-flag t) nil [6670 6677])
+            ("__SIZE_T" variable (:constant-flag t) nil [6686 6694])
+            ("_SIZE_T_" variable (:constant-flag t) nil [6703 6711])
+            ("_BSD_SIZE_T_" variable (:constant-flag t) nil [6720 6732])
+            ("_SIZE_T_DEFINED_" variable (:constant-flag t) nil [6741 6757])
+            ("_SIZE_T_DEFINED" variable (:constant-flag t) nil [6766 6781])
+            ("_BSD_SIZE_T_DEFINED_" variable (:constant-flag t) nil [6790 6810])
+            ("_SIZE_T_DECLARED" variable (:constant-flag t) nil [6832 6848])
+            ("___int_size_t_h" variable (:constant-flag t) nil [6873 6888])
+            ("_GCC_SIZE_T" variable (:constant-flag t) nil [6897 6908])
+            ("_SIZET_" variable (:constant-flag t) nil [6917 6924])
+            ("__size_t" variable (:constant-flag t) nil [7181 7189])
+            ("__SIZE_TYPE__" variable (:constant-flag t) nil [7227 7240])
+            ("size_t" variable (:type "unsigned int") nil [7320 7341])
+            ("__wchar_t__" variable (:constant-flag t) nil [8767 8778])
+            ("__WCHAR_T__" variable (:constant-flag t) nil [8798 8809])
+            ("_WCHAR_T" variable (:constant-flag t) nil [8839 8847])
+            ("_T_WCHAR_" variable (:constant-flag t) nil [8856 8865])
+            ("_T_WCHAR" variable (:constant-flag t) nil [8874 8882])
+            ("__WCHAR_T" variable (:constant-flag t) nil [8891 8900])
+            ("_WCHAR_T_" variable (:constant-flag t) nil [8909 8918])
+            ("_BSD_WCHAR_T_" variable (:constant-flag t) nil [8927 8940])
+            ("_WCHAR_T_DEFINED_" variable (:constant-flag t) nil [8949 8966])
+            ("_WCHAR_T_DEFINED" variable (:constant-flag t) nil [8975 8991])
+            ("_WCHAR_T_H" variable (:constant-flag t) nil [9000 9010])
+            ("___int_wchar_t_h" variable (:constant-flag t) nil [9019 9035])
+            ("__INT_WCHAR_T_H" variable (:constant-flag t) nil [9044 9059])
+            ("_GCC_WCHAR_T" variable (:constant-flag t) nil [9068 9080])
+            ("_WCHAR_T_DECLARED" variable (:constant-flag t) nil [9089 9106])
+            ("NULL" variable (:constant-flag t) nil [12511 12515])
+            ("offsetof" variable (:constant-flag t) nil [12817 12825]))          
+      :file "stddef.h"
+      :pointmax 13755
+      :fsize 13754
+      :lastmodtime '(21956 47738 0 0)
+      :unmatched-syntax '((punctuation 13753 . 13754) (punctuation 13752 . 13753) (symbol 13745 . 13751) (symbol 13737 . 13744) (symbol 13733 . 13736) (symbol 13729 . 13732) (symbol 13718 . 13728) (punctuation 13716 . 13717) (punctuation 13715 . 13716) (LONG "long" 7320 . 7333) (TYPEDEF 7312 . 7319) (close-paren 1622 . 1623) (close-paren 1621 . 1622) (symbol 1608 . 1621) (open-paren 1607 . 1608) (symbol 1600 . 1607) (punctuation 1599 . 1600) (punctuation 1597 . 1598) (punctuation 1596 . 1597) (close-paren 1587 . 1588) (symbol 1576 . 1587) (open-paren 1575 . 1576) (symbol 1568 . 1575) (punctuation 1567 . 1568) (punctuation 1565 . 1566) (punctuation 1564 . 1565) (close-paren 1562 . 1563) (symbol 1546 . 1562) (open-paren 1545 . 1546) (symbol 1538 . 1545) (punctuation 1537 . 1538) (punctuation 1535 . 1536) (punctuation 1534 . 1535) (close-paren 1280 . 1281) (symbol 1267 . 1280) (open-paren 1266 . 1267) (symbol 1259 . 1266) (punctuation 1257 . 1258) (punctuation 1256 . 1257) (close-paren 1248 . 1249) (symbol 1237 . 1248) (open-paren 1236 . 1237) (symbol 1229 . 1236) (punctuation 1227 . 1228) (punctuation 1226 . 1227) (close-paren 1224 . 1225) (symbol 1208 . 1224) (open-paren 1207 . 1208) (symbol 1200 . 1207) (punctuation 1198 . 1199) (punctuation 1197 . 1198) (close-paren 1189 . 1190) (symbol 1176 . 1189) (open-paren 1175 . 1176) (symbol 1168 . 1175) (punctuation 1166 . 1167) (punctuation 1165 . 1166) (close-paren 1163 . 1164) (symbol 1149 . 1163) (open-paren 1148 . 1149) (symbol 1141 . 1148) (punctuation 1139 . 1140) (punctuation 1138 . 1139) (close-paren 1130 . 1131) (semantic-list 1116 . 1130) (symbol 1109 . 1116) (punctuation 1108 . 1109) (punctuation 1106 . 1107) (punctuation 1105 . 1106))
+      :lexical-table 
+        '(("_PTRDIFF_T_DECLARED")
+          ("_BSD_SIZE_T_DEFINED_")
+          ("_SIZET_")
+          ("_WCHAR_T_DECLARED")
+          ("_ANSI_STDDEF_H")
+          ("_T_PTRDIFF_")
+          ("_SIZE_T_DEFINED")
+          ("__WCHAR_T__")
+          ("__INT_WCHAR_T_H")
+          ("offsetof" (spp-arg-list ("TYPE" "MEMBER") 12825 . 12839) . ((symbol "__builtin_offsetof" 12840 . 12858) (semantic-list "(TYPE, MEMBER)" 12859 . 12873)))
+          ("__size_t")
+          ("__SIZE_TYPE__" . 
+              ((LONG "long" 7241 . 7245) (UNSIGNED "unsigned" 7246 . 7254) (INT "int" 7255 . 7258)))
+          ("_WCHAR_T_DEFINED_")
+          ("NULL" . ((symbol "__null" 12516 . 12522)))
+          ("__size_t__")
+          ("_STDDEF_H")
+          ("_BSD_PTRDIFF_T_")
+          ("_SYS_SIZE_T_H")
+          ("_T_SIZE")
+          ("_SIZE_T_")
+          ("_SIZE_T_DECLARED")
+          ("_WCHAR_T_H")
+          ("_STDDEF_H_")
+          ("__PTRDIFF_T")
+          ("_T_SIZE_")
+          ("_GCC_WCHAR_T")
+          ("_PTRDIFF_T")
+          ("_T_WCHAR")
+          ("__WCHAR_T")
+          ("__SIZE_T")
+          ("_SIZE_T_DEFINED_")
+          ("_WCHAR_T_")
+          ("___int_wchar_t_h")
+          ("_SIZE_T")
+          ("___int_size_t_h")
+          ("_GCC_PTRDIFF_T")
+          ("__SIZE_T__")
+          ("__wchar_t__")
+          ("_WCHAR_T")
+          ("_BSD_SIZE_T_")
+          ("_WCHAR_T_DEFINED")
+          ("_T_PTRDIFF")
+          ("_PTRDIFF_T_")
+          ("___int_ptrdiff_t_h")
+          ("__PTRDIFF_TYPE__" . ((LONG "long" 5471 . 5475) (INT "int" 5476 . 5479)))
+          ("_GCC_SIZE_T")
+          ("_T_WCHAR_")
+          )
+)
+    (semanticdb-table "stdarg.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_STDARG_H" variable (:constant-flag t) nil [1097 1106])
+            ("_ANSI_STDARG_H_" variable (:constant-flag t) nil [1115 1130])
+            ("__GNUC_VA_LIST" variable (:constant-flag t) nil [1252 1266])
+            ("__gnuc_va_list" type
+               (:typedef ("__builtin_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1267 1308])
+            ("va_start" variable (:constant-flag t) nil [1440 1448])
+            ("va_end" variable (:constant-flag t) nil [1486 1492])
+            ("va_arg" variable (:constant-flag t) nil [1524 1530])
+            ("__va_copy" variable (:constant-flag t) nil [1721 1730])
+            ("va_list" type
+               (:typedef ("__gnuc_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3409 3440])
+            ("_VA_LIST_" variable (:constant-flag t) nil [3698 3707])
+            ("_VA_LIST" variable (:constant-flag t) nil [3740 3748])
+            ("_VA_LIST_DEFINED" variable (:constant-flag t) nil [3789 3805])
+            ("_VA_LIST_T_H" variable (:constant-flag t) nil [3842 3854])
+            ("__va_list__" variable (:constant-flag t) nil [3890 3901]))          
+      :file "stdarg.h"
+      :pointmax 4076
+      :fsize 4075
+      :lastmodtime '(21956 47738 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__va_list__")
+          ("_VA_LIST_DEFINED")
+          ("va_start" (spp-arg-list ("v" "l") 1448 . 1453) . ((symbol "__builtin_va_start" 1454 . 1472) (semantic-list "(v,l)" 1472 . 1477)))
+          ("_VA_LIST_T_H")
+          ("_STDARG_H")
+          ("va_end" (spp-arg-list ("v") 1492 . 1495) . ((symbol "__builtin_va_end" 1496 . 1512) (semantic-list "(v)" 1512 . 1515)))
+          ("__va_copy" (spp-arg-list ("d" "s") 1730 . 1735) . ((symbol "__builtin_va_copy" 1736 . 1753) (semantic-list "(d,s)" 1753 . 1758)))
+          ("_VA_LIST")
+          ("_ANSI_STDARG_H_")
+          ("_VA_LIST_")
+          ("__GNUC_VA_LIST")
+          ("va_arg" (spp-arg-list ("v" "l") 1530 . 1535) . ((symbol "__builtin_va_arg" 1536 . 1552) (semantic-list "(v,l)" 1552 . 1557)))
+          )
+)
+    (semanticdb-table "omp.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_OMP_H" variable (:constant-flag t) nil [1147 1153])
+            ("_LIBGOMP_OMP_LOCK_DEFINED" variable (:constant-flag t) nil [1199 1224])
+            ("omp_lock_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("_x" variable
+                             (:dereference 1
+                              :type "unsigned char")
+                              (reparse-symbol classsubparts) [1406 1463]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1387 1477])
+            ("omp_nest_lock_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("_x" variable
+                             (:dereference 1
+                              :type "unsigned char")
+                              (reparse-symbol classsubparts) [1498 1556]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1479 1575])
+            ("omp_sched_t" type
+               (:members 
+                  ( ("omp_sched_static" variable
+                       (:constant-flag t
+                        :default-value (1632 1633)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1613 1633])
+                    ("omp_sched_dynamic" variable
+                       (:constant-flag t
+                        :default-value (1657 1658)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1637 1658])
+                    ("omp_sched_guided" variable
+                       (:constant-flag t
+                        :default-value (1681 1682)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1662 1682])
+                    ("omp_sched_auto" variable
+                       (:constant-flag t
+                        :default-value (1703 1704)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1686 1704]))                  
+                :type "enum")
+                nil [1584 1719])
+            ("omp_sched_t" type
+               (:typedef ("omp_sched_t" type (:type "enum") nil nil)
+                :type "typedef")
+                nil [1584 1719])
+            ("omp_proc_bind_t" type
+               (:members 
+                  ( ("omp_proc_bind_false" variable
+                       (:constant-flag t
+                        :default-value (1776 1777)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1754 1777])
+                    ("omp_proc_bind_true" variable
+                       (:constant-flag t
+                        :default-value (1802 1803)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1781 1803])
+                    ("omp_proc_bind_master" variable
+                       (:constant-flag t
+                        :default-value (1830 1831)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1807 1831])
+                    ("omp_proc_bind_close" variable
+                       (:constant-flag t
+                        :default-value (1857 1858)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1835 1858])
+                    ("omp_proc_bind_spread" variable
+                       (:constant-flag t
+                        :default-value (1885 1886)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1862 1886]))                  
+                :type "enum")
+                nil [1721 1905])
+            ("omp_proc_bind_t" type
+               (:typedef ("omp_proc_bind_t" type (:type "enum") nil nil)
+                :type "typedef")
+                nil [1721 1905])
+            ("__GOMP_NOTHROW" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1948 1962]))          
+      :file "omp.h"
+      :pointmax 4356
+      :fsize 4355
+      :lastmodtime '(21956 48123 0 0)
+      :unmatched-syntax '((punctuation 4304 . 4305) (semantic-list "()" 4290 . 4304) (THROW "throw" 4290 . 4304) (semantic-list 4283 . 4289) (symbol 4261 . 4282) (INT 4257 . 4260) (EXTERN 4250 . 4256) (punctuation 4247 . 4248) (semantic-list "()" 4233 . 4247) (THROW "throw" 4233 . 4247) (semantic-list 4226 . 4232) (symbol 4209 . 4225) (INT 4205 . 4208) (EXTERN 4198 . 4204) (punctuation 4196 . 4197) (semantic-list "()" 4182 . 4196) (THROW "throw" 4182 . 4196) (semantic-list 4175 . 4181) (symbol 4157 . 4174) (INT 4153 . 4156) (EXTERN 4146 . 4152) (punctuation 4144 . 4145) (semantic-list "()" 4130 . 4144) (THROW "throw" 4130 . 4144) (semantic-list 4123 . 4129) (symbol 4103 . 4122) (INT 4099 . 4102) (EXTERN 4092 . 4098) (punctuation 4090 . 4091) (semantic-list "()" 4076 . 4090) (THROW "throw" 4076 . 4090) (semantic-list 4069 . 4075) (symbol 4046 . 4068) (INT 4042 . 4045) (EXTERN 4035 . 4041) (punctuation 4033 . 4034) (semantic-list "()" 4019 . 4033) (THROW "throw" 4019 . 4033) (semantic-list 4013 . 4018) (symbol 3990 . 4012) (VOID 3985 . 3989) (EXTERN 3978 . 3984) (punctuation 3975 . 3976) (semantic-list "()" 3961 . 3975) (THROW "throw" 3961 . 3975) (semantic-list 3954 . 3960) (symbol 3936 . 3953) (symbol 3920 . 3935) (EXTERN 3913 . 3919) (punctuation 3911 . 3912) (semantic-list "()" 3897 . 3911) (THROW "throw" 3897 . 3911) (semantic-list 3890 . 3896) (symbol 3869 . 3889) (INT 3865 . 3868) (EXTERN 3858 . 3864) (punctuation 3855 . 3856) (semantic-list "()" 3841 . 3855) (THROW "throw" 3841 . 3855) (semantic-list 3834 . 3840) (symbol 3821 . 3833) (INT 3817 . 3820) (EXTERN 3810 . 3816) (punctuation 3807 . 3808) (semantic-list "()" 3793 . 3807) (THROW "throw" 3793 . 3807) (semantic-list 3786 . 3792) (symbol 3765 . 3785) (INT 3761 . 3764) (EXTERN 3754 . 3760) (punctuation 3752 . 3753) (semantic-list "()" 3738 . 3752) (THROW "throw" 3738 . 3752) (semantic-list 3732 . 3737) (symbol 3714 . 3731) (INT 3710 . 3713) (EXTERN 3703 . 3709) (punctuation 3701 . 3702) (semantic-list "()" 3687 . 3701) (THROW "throw" 3687 . 3701) (semantic-list 3681 . 3686) (symbol 3653 . 3680) (INT 3649 . 3652) (EXTERN 3642 . 3648) (punctuation 3640 . 3641) (semantic-list "()" 3626 . 3640) (THROW "throw" 3626 . 3640) (semantic-list 3619 . 3625) (symbol 3605 . 3618) (INT 3601 . 3604) (EXTERN 3594 . 3600) (punctuation 3592 . 3593) (semantic-list "()" 3578 . 3592) (THROW "throw" 3578 . 3592) (semantic-list 3571 . 3577) (symbol 3545 . 3570) (INT 3541 . 3544) (EXTERN 3534 . 3540) (punctuation 3532 . 3533) (semantic-list "()" 3518 . 3532) (THROW "throw" 3518 . 3532) (semantic-list 3512 . 3517) (symbol 3486 . 3511) (VOID 3481 . 3485) (EXTERN 3474 . 3480) (punctuation 3472 . 3473) (semantic-list "()" 3458 . 3472) (THROW "throw" 3458 . 3472) (semantic-list 3451 . 3457) (symbol 3430 . 3450) (INT 3426 . 3429) (EXTERN 3419 . 3425) (punctuation 3417 . 3418) (semantic-list "()" 3403 . 3417) (THROW "throw" 3403 . 3417) (semantic-list 3380 . 3402) (symbol 3363 . 3379) (VOID 3358 . 3362) (EXTERN 3351 . 3357) (punctuation 3349 . 3350) (semantic-list "()" 3335 . 3349) (THROW "throw" 3335 . 3349) (semantic-list 3316 . 3334) (symbol 3299 . 3315) (VOID 3294 . 3298) (EXTERN 3287 . 3293) (punctuation 3284 . 3285) (semantic-list "()" 3270 . 3284) (THROW "throw" 3270 . 3284) (semantic-list 3263 . 3269) (symbol 3249 . 3262) (DOUBLE 3242 . 3248) (EXTERN 3235 . 3241) (punctuation 3233 . 3234) (semantic-list "()" 3219 . 3233) (THROW "throw" 3219 . 3233) (semantic-list 3212 . 3218) (symbol 3198 . 3211) (DOUBLE 3191 . 3197) (EXTERN 3184 . 3190) (punctuation 3181 . 3182) (semantic-list "()" 3167 . 3181) (THROW "throw" 3167 . 3181) (semantic-list 3147 . 3166) (symbol 3128 . 3146) (INT 3124 . 3127) (EXTERN 3117 . 3123) (punctuation 3115 . 3116) (semantic-list "()" 3101 . 3115) (THROW "throw" 3101 . 3115) (semantic-list 3081 . 3100) (symbol 3061 . 3080) (VOID 3056 . 3060) (EXTERN 3049 . 3055) (punctuation 3047 . 3048) (semantic-list "()" 3033 . 3047) (THROW "throw" 3033 . 3047) (semantic-list 3013 . 3032) (symbol 2995 . 3012) (VOID 2990 . 2994) (EXTERN 2983 . 2989) (punctuation 2981 . 2982) (semantic-list "()" 2967 . 2981) (THROW "throw" 2967 . 2981) (semantic-list 2947 . 2966) (symbol 2925 . 2946) (VOID 2920 . 2924) (EXTERN 2913 . 2919) (punctuation 2911 . 2912) (semantic-list "()" 2897 . 2911) (THROW "throw" 2897 . 2911) (semantic-list 2877 . 2896) (symbol 2858 . 2876) (VOID 2853 . 2857) (EXTERN 2846 . 2852) (punctuation 2843 . 2844) (semantic-list "()" 2829 . 2843) (THROW "throw" 2829 . 2843) (semantic-list 2814 . 2828) (symbol 2800 . 2813) (INT 2796 . 2799) (EXTERN 2789 . 2795) (punctuation 2787 . 2788) (semantic-list "()" 2773 . 2787) (THROW "throw" 2773 . 2787) (semantic-list 2758 . 2772) (symbol 2743 . 2757) (VOID 2738 . 2742) (EXTERN 2731 . 2737) (punctuation 2729 . 2730) (semantic-list "()" 2715 . 2729) (THROW "throw" 2715 . 2729) (semantic-list 2700 . 2714) (symbol 2687 . 2699) (VOID 2682 . 2686) (EXTERN 2675 . 2681) (punctuation 2673 . 2674) (semantic-list "()" 2659 . 2673) (THROW "throw" 2659 . 2673) (semantic-list 2644 . 2658) (symbol 2627 . 2643) (VOID 2622 . 2626) (EXTERN 2615 . 2621) (punctuation 2613 . 2614) (semantic-list "()" 2599 . 2613) (THROW "throw" 2599 . 2613) (semantic-list 2584 . 2598) (symbol 2570 . 2583) (VOID 2565 . 2569) (EXTERN 2558 . 2564) (punctuation 2555 . 2556) (semantic-list "()" 2541 . 2555) (THROW "throw" 2541 . 2555) (semantic-list 2534 . 2540) (symbol 2519 . 2533) (INT 2515 . 2518) (EXTERN 2508 . 2514) (punctuation 2506 . 2507) (semantic-list "()" 2492 . 2506) (THROW "throw" 2492 . 2506) (semantic-list 2486 . 2491) (symbol 2471 . 2485) (VOID 2466 . 2470) (EXTERN 2459 . 2465) (punctuation 2456 . 2457) (semantic-list "()" 2442 . 2456) (THROW "throw" 2442 . 2456) (semantic-list 2435 . 2441) (symbol 2419 . 2434) (INT 2415 . 2418) (EXTERN 2408 . 2414) (punctuation 2406 . 2407) (semantic-list "()" 2392 . 2406) (THROW "throw" 2392 . 2406) (semantic-list 2386 . 2391) (symbol 2370 . 2385) (VOID 2365 . 2369) (EXTERN 2358 . 2364) (punctuation 2355 . 2356) (semantic-list "()" 2341 . 2355) (THROW "throw" 2341 . 2355) (semantic-list 2334 . 2340) (symbol 2318 . 2333) (INT 2314 . 2317) (EXTERN 2307 . 2313) (punctuation 2304 . 2305) (semantic-list "()" 2290 . 2304) (THROW "throw" 2290 . 2304) (semantic-list 2283 . 2289) (symbol 2265 . 2282) (INT 2261 . 2264) (EXTERN 2254 . 2260) (punctuation 2252 . 2253) (semantic-list "()" 2238 . 2252) (THROW "throw" 2238 . 2252) (semantic-list 2231 . 2237) (symbol 2212 . 2230) (INT 2208 . 2211) (EXTERN 2201 . 2207) (punctuation 2199 . 2200) (semantic-list "()" 2185 . 2199) (THROW "throw" 2185 . 2199) (semantic-list 2178 . 2184) (symbol 2158 . 2177) (INT 2154 . 2157) (EXTERN 2147 . 2153) (punctuation 2145 . 2146) (semantic-list "()" 2131 . 2145) (THROW "throw" 2131 . 2145) (semantic-list 2124 . 2130) (symbol 2104 . 2123) (INT 2100 . 2103) (EXTERN 2093 . 2099) (punctuation 2091 . 2092) (semantic-list "()" 2077 . 2091) (THROW "throw" 2077 . 2091) (semantic-list 2071 . 2076) (symbol 2051 . 2070) (VOID 2046 . 2050) (EXTERN 2039 . 2045))
+      :lexical-table 
+        '(("__GOMP_NOTHROW" . ((THROW "throw" 1963 . 1968) (semantic-list "()" 1969 . 1971)))
+          ("_LIBGOMP_OMP_LOCK_DEFINED" . ((number "1" 1225 . 1226)))
+          ("_OMP_H" . ((number "1" 1154 . 1155)))
+          )
+))
+  :file "!usr!lib!gcc!x86_64-unknown-linux-gnu!5.2.0!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

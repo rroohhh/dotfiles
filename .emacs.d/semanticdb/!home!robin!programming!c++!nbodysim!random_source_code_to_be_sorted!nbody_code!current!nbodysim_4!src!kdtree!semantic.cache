@@ -1,0 +1,157 @@
+;; Object kdtree/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "kdtree/"
+  :tables
+  (list
+    (semanticdb-table "tree.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("tree.h" include nil nil [1 18])
+            ("max_nodes" variable
+               (:default-value "0"
+                :type "double")
+                nil [2243 2264])
+            ("sim_time" variable
+               (:default-value "0"
+                :type "double")
+                nil [2265 2285])
+            ("curr_node" variable
+               (:default-value "0"
+                :type "int")
+                nil [2286 2304])
+            ("dmax" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("a" variable (:type "double") (reparse-symbol arg-sub-list) [2325 2334])
+                    ("b" variable (:type "double") (reparse-symbol arg-sub-list) [2335 2344]))                  
+                :type "double")
+                nil [2306 2374])
+            ("le" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("a" variable (:type "double") (reparse-symbol arg-sub-list) [2393 2402]))                  
+                :type "double")
+                nil [2376 2434])
+            ("split_node" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2452 2466])
+                    ("id" variable (:type "int") (reparse-symbol arg-sub-list) [2467 2474])
+                    ("univers" variable
+                       (:pointer 2
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2475 2490])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [2491 2505])
+                    ("bodies" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2506 2519])
+                    ("total_bodies" variable (:type "int") (reparse-symbol arg-sub-list) [2520 2537])
+                    ("depth" variable (:type "int") (reparse-symbol arg-sub-list) [2538 2548])
+                    ("max_x" variable (:type "double") (reparse-symbol arg-sub-list) [2549 2562])
+                    ("max_y" variable (:type "double") (reparse-symbol arg-sub-list) [2563 2576])
+                    ("max_z" variable (:type "double") (reparse-symbol arg-sub-list) [2577 2590])
+                    ("sidelength" variable (:type "double") (reparse-symbol arg-sub-list) [2591 2609]))                  
+                :type "void")
+                nil [2436 11531])
+            ("setup_tree" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11548 11562])
+                    ("univers" variable
+                       (:pointer 2
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11563 11578])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [11579 11593])
+                    ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [11594 11604]))                  
+                :type "int")
+                nil [11533 12377])
+            ("create_tree" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12395 12409])
+                    ("univers" variable
+                       (:pointer 2
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12410 12425])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [12426 12440]))                  
+                :type "int")
+                nil [12379 13873])
+            ("calc_accel_r" function
+               (:arguments 
+                  ( ("node" variable
+                       (:dereference 1
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13893 13907])
+                    ("data" variable
+                       (:dereference 1
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13908 13920])
+                    ("b_data" variable (:type "int") (reparse-symbol arg-sub-list) [13921 13932])
+                    ("id" variable (:type "int") (reparse-symbol arg-sub-list) [13933 13940]))                  
+                :type "void")
+                nil [13875 15821])
+            ("calc_accel" function
+               (:arguments 
+                  ( ("node" variable
+                       (:dereference 1
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15839 15853])
+                    ("data" variable
+                       (:dereference 1
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15854 15866])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [15867 15881]))                  
+                :type "void")
+                nil [15823 16154])
+            ("leap" function
+               (:arguments 
+                  ( ("data" variable
+                       (:dereference 1
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16166 16178])
+                    ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [16179 16189])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [16190 16204]))                  
+                :type "void")
+                nil [16156 17921])
+            ("remove_oob" function
+               (:arguments 
+                  ( ("data" variable
+                       (:dereference 1
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17939 17951])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [17952 17966]))                  
+                :type "void")
+                nil [17923 18935])
+            ("do_timestep" function
+               (:arguments 
+                  ( ("tree" variable
+                       (:pointer 2
+                        :type ("node_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18954 18968])
+                    ("univers" variable
+                       (:pointer 2
+                        :type ("body" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18969 18984])
+                    ("bodycount" variable (:type "int") (reparse-symbol arg-sub-list) [18985 18999])
+                    ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [19000 19010]))                  
+                :type "void")
+                nil [18937 19773]))          
+      :file "tree.c"
+      :pointmax 19774
+      :fsize 19784
+      :lastmodtime '(22084 57733 53263 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "tree.h"
+      :file "tree.h"
+      :fsize 1196
+      :lastmodtime '(22084 57733 39930 0)))
+  :file "!home!robin!programming!c++!nbodysim!random_source_code_to_be_sorted!nbody_code!current!nbodysim_4!src!kdtree!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

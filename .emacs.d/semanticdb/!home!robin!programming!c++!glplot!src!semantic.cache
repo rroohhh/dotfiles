@@ -1,0 +1,856 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "glyphs.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_GLYPHS_H" variable (:constant-flag t) nil [66 75])
+            ("_binary_0_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [78 112])
+            ("_binary_1_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [113 147])
+            ("_binary_2_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [148 182])
+            ("_binary_3_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [183 217])
+            ("_binary_4_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [218 252])
+            ("_binary_5_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [253 287])
+            ("_binary_6_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [288 322])
+            ("_binary_7_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [323 357])
+            ("_binary_8_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [358 392])
+            ("_binary_9_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [393 427])
+            ("_binary_e_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [428 462])
+            ("_binary___bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [463 497])
+            ("_binary_minus_bin_start" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [498 536])
+            ("Glyphs" type
+               (:members 
+                  ( ("width" variable
+                       (:default-value "39"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [561 576])
+                    ("height" variable
+                       (:default-value "64"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [581 597])
+                    ("dot" variable
+                       (:pointer 1
+                        :default-value "_binary___bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [600 633])
+                    ("minus" variable
+                       (:pointer 1
+                        :default-value "_binary_minus_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [636 675])
+                    ("zero" variable
+                       (:pointer 1
+                        :default-value "_binary_0_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [678 712])
+                    ("one" variable
+                       (:pointer 1
+                        :default-value "_binary_1_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [719 752])
+                    ("two" variable
+                       (:pointer 1
+                        :default-value "_binary_2_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [759 792])
+                    ("three" variable
+                       (:pointer 1
+                        :default-value "_binary_3_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [795 830])
+                    ("four" variable
+                       (:pointer 1
+                        :default-value "_binary_4_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [837 871])
+                    ("five" variable
+                       (:pointer 1
+                        :default-value "_binary_5_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [874 908])
+                    ("six" variable
+                       (:pointer 1
+                        :default-value "_binary_6_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [911 944])
+                    ("seven" variable
+                       (:pointer 1
+                        :default-value "_binary_7_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [947 982])
+                    ("eight" variable
+                       (:pointer 1
+                        :default-value "_binary_8_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [985 1020])
+                    ("nine" variable
+                       (:pointer 1
+                        :default-value "_binary_9_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [1023 1057])
+                    ("e" variable
+                       (:pointer 1
+                        :default-value "_binary_e_bin_start"
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [1060 1091]))                  
+                :type "namespace")
+                nil [538 1093]))          
+      :file "glyphs.h"
+      :pointmax 1102
+      :fsize 1101
+      :lastmodtime '(22099 10924 218844 547000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GLYPHS_H")
+          )
+)
+    (semanticdb-table "GLPlot.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("GLPlot.h" include nil nil [40 59])
+            ("GLPlot" function
+               (:constructor-flag t
+                :parent "GLPlot"
+                :type ("GLPlot" type (:type "class") nil nil))
+                nil [61 118])
+            ("GLPlot" function
+               (:destructor-flag t
+                :parent "GLPlot"
+                :type "void")
+                nil [120 158])
+            ("plot" function
+               (:parent "GLPlot"
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [177 190])
+                    ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [191 210]))                  
+                :type "int")
+                nil [160 297])
+            ("m_createWindow" function
+               (:parent "GLPlot"
+                :type "int")
+                nil [299 2775])
+            ("m_renderLoop" function
+               (:parent "GLPlot"
+                :arguments 
+                  ( ("window" variable
+                       (:pointer 1
+                        :type ("sf::RenderWindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2802 2828]))                  
+                :type "int")
+                nil [2777 7271])
+            ("m_generateAxisData" function
+               (:parent "GLPlot"
+                :arguments 
+                  ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [7304 7320])
+                    ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [7321 7338])
+                    ("centerX" variable (:type "float") (reparse-symbol arg-sub-list) [7339 7353])
+                    ("centerY" variable (:type "float") (reparse-symbol arg-sub-list) [7354 7368])
+                    ("scaleX" variable (:type "float") (reparse-symbol arg-sub-list) [7369 7382])
+                    ("scaleY" variable (:type "float") (reparse-symbol arg-sub-list) [7383 7396]))                  
+                :type "int")
+                nil [7273 9081])
+            ("m_pixelToScreen" function
+               (:parent "GLPlot"
+                :typemodifiers ("inline")
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [9120 9126])
+                    ("screenSize" variable (:type "int") (reparse-symbol arg-sub-list) [9127 9142]))                  
+                :type "float")
+                nil [9083 9200])
+            ("m_pixelsToCoords" function
+               (:pointer 1
+                :parent "GLPlot"
+                :typemodifiers ("inline")
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [9242 9248])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [9249 9255])
+                    ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [9256 9272])
+                    ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [9273 9290]))                  
+                :type "float")
+                nil [9202 9485]))          
+      :file "GLPlot.cpp"
+      :pointmax 9486
+      :fsize 9485
+      :lastmodtime '(22101 58273 377996 815000)
+      :unmatched-syntax nil)
+    (semanticdb-table "GLPlot.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_GLPlot_H" variable (:constant-flag t) nil [66 75])
+            ("GL/glew.h" include (:system-flag t) nil [77 97])
+            ("GL/gl.h" include (:system-flag t) nil [98 116])
+            ("SFML/Graphics.hpp" include (:system-flag t) nil [118 146])
+            ("omp.h" include (:system-flag t) nil [148 164])
+            ("iostream" include (:system-flag t) nil [166 185])
+            ("cstring" include (:system-flag t) nil [186 204])
+            ("cstdio" include (:system-flag t) nil [205 222])
+            ("NumberRenderer.h" include nil nil [224 251])
+            ("ShaderProgram.h" include nil nil [252 278])
+            ("AxisScale.h" include nil nil [279 301])
+            ("config.h" include nil nil [302 321])
+            ("GLPlot" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [338 345])
+                    ("GLPlot" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("GLPlot" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [347 356])
+                    ("plot" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type "float")
+                                (reparse-symbol arg-sub-list) [367 375])
+                            ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [376 395]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [358 396])
+                    ("GLPlot" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [399 409])
+                    ("private" label nil (reparse-symbol classsubparts) [410 418])
+                    ("vo" type
+                       (:typedef ("" type
+                             (:members 
+                                ( ("vao" variable (:type "unsigned int") (reparse-symbol classsubparts) [439 456])
+                                  ("vbo" variable (:type "unsigned int") (reparse-symbol classsubparts) [459 476]))                                
+                              :type "struct")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol classsubparts) [420 483])
+                    ("m_createWindow" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [487 508])
+                    ("m_renderLoop" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type ("sf::RenderWindow" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [527 546]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [510 547])
+                    ("m_pixelsToCoords" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [582 588])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [589 595])
+                            ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [596 612])
+                            ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [613 630]))                          
+                        :type "float")
+                        (reparse-symbol classsubparts) [550 631])
+                    ("m_pixelToScreen" function
+                       (:prototype-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [662 668])
+                            ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [669 685]))                          
+                        :type "float")
+                        (reparse-symbol classsubparts) [633 686])
+                    ("m_generateAxisData" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [712 728])
+                            ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [729 746])
+                            ("centerX" variable (:type "float") (reparse-symbol arg-sub-list) [747 761])
+                            ("centerY" variable (:type "float") (reparse-symbol arg-sub-list) [762 776])
+                            ("scaleX" variable (:type "float") (reparse-symbol arg-sub-list) [777 790])
+                            ("scaleY" variable (:type "float") (reparse-symbol arg-sub-list) [791 804]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [689 805])
+                    ("m_count" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol classsubparts) [809 825])
+                    ("m_data" variable
+                       (:pointer 1
+                        :default-value "nullptr"
+                        :type "float")
+                        (reparse-symbol classsubparts) [827 852])
+                    ("m_axisData" variable
+                       (:pointer 1
+                        :default-value "nullptr"
+                        :type "float")
+                        (reparse-symbol classsubparts) [854 883])
+                    ("m_changed" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [885 908])
+                    ("m_points" variable (:type ("vo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [912 924])
+                    ("m_axis" variable (:type ("vo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [926 936])
+                    ("m_axisLabels" variable (:type ("vo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [938 954])
+                    ("m_shaderProgram" variable
+                       (:pointer 1
+                        :default-value "nullptr"
+                        :type ("ShaderProgram" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [961 1003])
+                    ("m_numberRenderer" variable
+                       (:pointer 1
+                        :default-value "nullptr"
+                        :type ("NumberRenderer" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1005 1049]))                  
+                :type "class")
+                nil [323 1052]))          
+      :file "GLPlot.h"
+      :pointmax 1061
+      :fsize 1060
+      :lastmodtime '(22098 45676 481390 812000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GLPlot_H")
+          )
+)
+    (semanticdb-table "NumberRenderer.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_NUMBERRENDERER_H" variable (:constant-flag t) nil [70 87])
+            ("GL/glew.h" include (:system-flag t) nil [89 109])
+            ("cstring" include (:system-flag t) nil [110 128])
+            ("vector" include (:system-flag t) nil [129 146])
+            ("ShaderProgram.h" include nil nil [148 174])
+            ("NumberRenderer" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [199 206])
+                    ("NumberRenderer" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [223 239])
+                            ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [240 257]))                          
+                        :type ("NumberRenderer" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [208 258])
+                    ("setScreenDimension" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [284 300])
+                            ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [301 318]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [261 319])
+                    ("addText" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [335 341])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [342 348])
+                            ("height" variable (:type "int") (reparse-symbol arg-sub-list) [349 360])
+                            ("text" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [361 379]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [323 380])
+                    ("clearText" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [382 398])
+                    ("render" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [401 414])
+                    ("NumberRenderer" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [418 436])
+                    ("private" label nil (reparse-symbol classsubparts) [437 445])
+                    ("glyph" type
+                       (:members 
+                          ( ("x" variable (:type "float") (reparse-symbol classsubparts) [464 472])
+                            ("y" variable (:type "float") (reparse-symbol classsubparts) [475 483])
+                            ("width" variable (:type "float") (reparse-symbol classsubparts) [486 498])
+                            ("height" variable (:type "float") (reparse-symbol classsubparts) [501 514])
+                            ("id" variable (:type "int") (reparse-symbol classsubparts) [517 524]))                          
+                        :type "struct")
+                        (reparse-symbol classsubparts) [447 528])
+                    ("m_vbo" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_vao" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_tex" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_width" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_height" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_ebo" variable
+                       (:default-value "0"
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [531 614])
+                    ("m_elemData" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [616 645])
+                    ("m_data" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [647 673])
+                    ("m_shaderProgram" variable
+                       (:pointer 1
+                        :default-value "nullptr"
+                        :type ("ShaderProgram" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [675 717])
+                    ("m_glyphs" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("glyph" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [719 747])
+                    ("m_charToID" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [765 772]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [750 773])
+                    ("m_toCoords" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [792 798])
+                            ("screenSize" variable (:type "int") (reparse-symbol arg-sub-list) [799 814]))                          
+                        :type "float")
+                        (reparse-symbol classsubparts) [775 815])
+                    ("m_loadTexture" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [835 853])
+                            ("target" variable (:type "int") (reparse-symbol arg-sub-list) [854 865]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [817 866])
+                    ("m_glyphUpdateData" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [868 892]))                  
+                :type "class")
+                nil [176 895]))          
+      :file "NumberRenderer.h"
+      :pointmax 904
+      :fsize 903
+      :lastmodtime '(22099 10795 30663 361000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_NUMBERRENDERER_H")
+          )
+)
+    (semanticdb-table "ShaderProgram.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_SHADERPROGRAM_H" variable (:constant-flag t) nil [74 90])
+            ("cstring" include (:system-flag t) nil [92 110])
+            ("iostream" include (:system-flag t) nil [111 130])
+            ("GL/glew.h" include (:system-flag t) nil [132 152])
+            ("ShaderProgram" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [176 183])
+                    ("ShaderProgram" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("vertexShaderSource" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [199 231])
+                            ("fragmentShaderSource" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [232 266]))                          
+                        :type ("ShaderProgram" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [185 267])
+                    ("vertexAttribPointer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [293 311])
+                            ("count" variable (:type "int") (reparse-symbol arg-sub-list) [312 322])
+                            ("type" variable (:type "int") (reparse-symbol arg-sub-list) [323 332])
+                            ("normalized" variable (:type "bool") (reparse-symbol arg-sub-list) [333 349])
+                            ("stride" variable (:type "int") (reparse-symbol arg-sub-list) [350 361])
+                            ("offset" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [362 382]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [269 383])
+                    ("useProgram" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [385 402])
+                    ("uniform2f" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [418 436])
+                            ("x" variable (:type "float") (reparse-symbol arg-sub-list) [437 445])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [446 454]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [404 455])
+                    ("uniform1i" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [471 489])
+                            ("x" variable (:type "int") (reparse-symbol arg-sub-list) [490 496]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [457 497])
+                    ("private" label nil (reparse-symbol classsubparts) [498 506])
+                    ("m_newShader" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol arg-sub-list) [524 533])
+                            ("source" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [534 554]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [508 555])
+                    ("m_id" variable (:type "int") (reparse-symbol classsubparts) [559 582])
+                    ("m_vid" variable (:type "int") (reparse-symbol classsubparts) [559 582])
+                    ("m_fid" variable (:type "int") (reparse-symbol classsubparts) [559 582]))                  
+                :type "class")
+                nil [154 585]))          
+      :file "ShaderProgram.h"
+      :pointmax 594
+      :fsize 593
+      :lastmodtime '(22084 57751 406596 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_SHADERPROGRAM_H")
+          )
+)
+    (semanticdb-table "AxisScale.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_AXISSCALE_H" variable (:constant-flag t) nil [69 81])
+            ("cmath" include (:system-flag t) nil [83 99])
+            ("AxisScale" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [119 126])
+                    ("getOptimalExponent" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("low" variable (:type "double") (reparse-symbol arg-sub-list) [158 169])
+                            ("high" variable (:type "double") (reparse-symbol arg-sub-list) [170 182]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [128 183]))                  
+                :type "class")
+                nil [101 186]))          
+      :file "AxisScale.h"
+      :pointmax 195
+      :fsize 194
+      :lastmodtime '(22084 57751 333262 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_AXISSCALE_H")
+          )
+)
+    (semanticdb-table "config.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("HEADER_SRC_APPINFO_H_INCLUDED" variable (:constant-flag t) nil [85 114])
+            ("APPLICATION_NAME" variable (:constant-flag t) nil [315 331])
+            ("APPLICATION_CODENAME" variable (:constant-flag t) nil [363 383])
+            ("APPLICATION_COPYRIGHT_YEARS" variable (:constant-flag t) nil [411 438])
+            ("APPLICATION_VERSION_MAJOR" variable (:constant-flag t) nil [457 482])
+            ("APPLICATION_VERSION_TYPE" variable (:constant-flag t) nil [576 600])
+            ("APPLICATION_VERSION_STRING" variable (:constant-flag t) nil [626 652])
+            ("APPLICATION_VENDOR_ID" variable (:constant-flag t) nil [682 703])
+            ("APPLICATION_VENDOR_NAME" variable (:constant-flag t) nil [734 757])
+            ("APPLICATION_VENDOR_URL" variable (:constant-flag t) nil [791 813])
+            ("APPLICATION_ID" variable (:constant-flag t) nil [843 857])
+            ("APPLICATION_VERSION_MINOR" variable (:constant-flag t) nil [1472 1497])
+            ("APPLICATION_VERSION_PATCH" variable (:constant-flag t) nil [1553 1578]))          
+      :file "config.h"
+      :pointmax 2181
+      :fsize 2180
+      :lastmodtime '(22084 57751 269929 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("APPLICATION_NAME" . ((string "\"glplot\"" 346 . 354)))
+          ("APPLICATION_VENDOR_ID" . ((string "\"de.robihei\"" 713 . 725)))
+          ("APPLICATION_ID" . ((string "\"de.robihei\"" 874 . 886)))
+          ("APPLICATION_VERSION_MAJOR" . ((number "1" 488 . 489)))
+          ("APPLICATION_VERSION_PATCH" . ((number "0" 1579 . 1580)))
+          ("APPLICATION_VERSION_TYPE" . ((string "\"SNAPSHOT\"" 607 . 617)))
+          ("APPLICATION_VERSION_STRING" . ((string "\"1.0.0-SNAPSHOT\"" 657 . 673)))
+          ("APPLICATION_VENDOR_NAME" . ((string "\"Robin Heinemann\"" 765 . 782)))
+          ("APPLICATION_VERSION_MINOR" . ((number "0" 1498 . 1499)))
+          ("APPLICATION_CODENAME" . ((string "\"glplot\"" 394 . 402)))
+          ("HEADER_SRC_APPINFO_H_INCLUDED")
+          ("APPLICATION_COPYRIGHT_YEARS" . ((string "\"2015\"" 442 . 448)))
+          ("APPLICATION_VENDOR_URL" . ((string "\"none (yet)\"" 822 . 834)))
+          )
+)
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [40 59])
+            ("cstdio" include (:system-flag t) nil [60 77])
+            ("GLPlot.h" include nil nil [78 97])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [108 117])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [118 131]))                  
+                :type "int")
+                nil [99 791]))          
+      :file "main.cpp"
+      :pointmax 792
+      :fsize 791
+      :lastmodtime '(22084 57751 249929 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "NumberRenderer.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("NumberRenderer.h" include nil nil [41 68])
+            ("glyphs.h" include nil nil [69 88])
+            ("NumberRenderer" function
+               (:constructor-flag t
+                :parent "NumberRenderer"
+                :arguments 
+                  ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [121 137])
+                    ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [138 155]))                  
+                :type ("NumberRenderer" type (:type "class") nil nil))
+                nil [90 1633])
+            ("NumberRenderer" function
+               (:destructor-flag t
+                :parent "NumberRenderer"
+                :type "void")
+                nil [1635 1672])
+            ("setScreenDimension" function
+               (:parent "NumberRenderer"
+                :arguments 
+                  ( ("screenWidth" variable (:type "int") (reparse-symbol arg-sub-list) [1713 1729])
+                    ("screenHeight" variable (:type "int") (reparse-symbol arg-sub-list) [1730 1747]))                  
+                :type "int")
+                nil [1674 1813])
+            ("m_toCoords" function
+               (:parent "NumberRenderer"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1848 1854])
+                    ("screenSize" variable (:type "int") (reparse-symbol arg-sub-list) [1855 1870]))                  
+                :type "float")
+                nil [1815 1932])
+            ("m_charToID" function
+               (:parent "NumberRenderer"
+                :arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [1965 1972]))                  
+                :type "int")
+                nil [1934 2542])
+            ("addText" function
+               (:parent "NumberRenderer"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2572 2578])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2579 2585])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [2586 2597])
+                    ("text" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2598 2616]))                  
+                :type "int")
+                nil [2544 3216])
+            ("clearText" function
+               (:parent "NumberRenderer"
+                :type "int")
+                nil [3218 3284])
+            ("m_glyphUpdateData" function
+               (:parent "NumberRenderer"
+                :type "int")
+                nil [3286 4663])
+            ("m_loadTexture" function
+               (:parent "NumberRenderer"
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4699 4717])
+                    ("target" variable (:type "int") (reparse-symbol arg-sub-list) [4718 4729]))                  
+                :type "int")
+                nil [4665 5736])
+            ("render" function
+               (:parent "NumberRenderer"
+                :type "int")
+                nil [5738 6192]))          
+      :file "NumberRenderer.cpp"
+      :pointmax 6193
+      :fsize 6192
+      :lastmodtime '(22099 13680 621310 871000)
+      :unmatched-syntax nil)
+    (semanticdb-table "ShaderProgram.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("ShaderProgram.h" include nil nil [40 66])
+            ("ShaderProgram" function
+               (:constructor-flag t
+                :parent "ShaderProgram"
+                :arguments 
+                  ( ("vertexShaderSource" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [97 129])
+                    ("fragmentShaderSource" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [130 164]))                  
+                :type ("ShaderProgram" type (:type "class") nil nil))
+                nil [68 431])
+            ("vertexAttribPointer" function
+               (:parent "ShaderProgram"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [472 490])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [491 501])
+                    ("type" variable (:type "int") (reparse-symbol arg-sub-list) [502 511])
+                    ("normalized" variable (:type "bool") (reparse-symbol arg-sub-list) [512 528])
+                    ("stride" variable (:type "int") (reparse-symbol arg-sub-list) [529 540])
+                    ("offset" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [541 561]))                  
+                :type "int")
+                nil [433 758])
+            ("useProgram" function
+               (:parent "ShaderProgram"
+                :type "int")
+                nil [760 828])
+            ("uniform2f" function
+               (:parent "ShaderProgram"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [859 877])
+                    ("x" variable (:type "float") (reparse-symbol arg-sub-list) [878 886])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [887 895]))                  
+                :type "int")
+                nil [830 1017])
+            ("uniform1i" function
+               (:parent "ShaderProgram"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1048 1066])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1067 1073]))                  
+                :type "int")
+                nil [1019 1162])
+            ("m_newShader" function
+               (:parent "ShaderProgram"
+                :arguments 
+                  ( ("type" variable (:type "int") (reparse-symbol arg-sub-list) [1195 1204])
+                    ("source" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1205 1225]))                  
+                :type "int")
+                nil [1164 1622]))          
+      :file "ShaderProgram.cpp"
+      :pointmax 1623
+      :fsize 1622
+      :lastmodtime '(22084 57751 229929 0)
+      :unmatched-syntax nil))
+  :file "!home!robin!programming!c++!glplot!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

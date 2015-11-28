@@ -1,0 +1,1131 @@
+;; Object Graphics/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Graphics/"
+  :tables
+  (list
+    (semanticdb-table "BlendMode.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_BLENDMODE_HPP" variable (:constant-flag t) nil [1142 1160])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1295 1330])
+            ("sf" type
+               (:members 
+                  ( ("BlendMode" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [1513 5694])
+                    ("==" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("BlendMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6062 6084])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("BlendMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6085 6108]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [6045 6109])
+                    ("!=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("BlendMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6477 6499])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("BlendMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6500 6523]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [6460 6524])
+                    ("BlendAlpha" variable
+                       (:typemodifiers ("extern")
+                        :constant-flag t
+                        :type ("BlendMode" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6698 6732])
+                    ("BlendAdd" variable
+                       (:typemodifiers ("extern")
+                        :constant-flag t
+                        :type ("BlendMode" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6805 6837])
+                    ("BlendMultiply" variable
+                       (:typemodifiers ("extern")
+                        :constant-flag t
+                        :type ("BlendMode" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6885 6922])
+                    ("BlendNone" variable
+                       (:typemodifiers ("extern")
+                        :constant-flag t
+                        :type ("BlendMode" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6971 7004]))                  
+                :type "namespace")
+                nil [1333 7043]))          
+      :file "BlendMode.hpp"
+      :pointmax 9701
+      :fsize 9700
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((symbol 6953 . 6970) (symbol 6867 . 6884) (symbol 6787 . 6804) (symbol 6680 . 6697) (symbol 6442 . 6459) (symbol 6027 . 6044))
+      :lexical-table 
+        '(("SFML_BLENDMODE_HPP")
+          )
+)
+    (semanticdb-table "CircleShape.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_CIRCLESHAPE_HPP" variable (:constant-flag t) nil [1144 1164])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1299 1334])
+            ("SFML/Graphics/Shape.hpp" include (:system-flag t) nil [1335 1369])
+            ("sf" type
+               (:members 
+                  ( ("Shape" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1609 4153]))                  
+                :type "namespace")
+                nil [1372 4156]))          
+      :file "CircleShape.hpp"
+      :pointmax 5345
+      :fsize 5344
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1602 . 1608) (punctuation 1600 . 1601) (symbol 1588 . 1599) (symbol 1570 . 1587) (CLASS 1564 . 1569))
+      :lexical-table 
+        '(("SFML_CIRCLESHAPE_HPP")
+          )
+)
+    (semanticdb-table "Color.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_COLOR_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1287 1322])
+            ("sf" type
+               (:members 
+                  ( ("Color" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1520 4040])
+                    ("==" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4467 4485])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4486 4505]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [4450 4506])
+                    ("!=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4937 4955])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4956 4975]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [4920 4976])
+                    ("+" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5432 5450])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5451 5470]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5415 5471])
+                    ("-" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5925 5943])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5944 5963]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5908 5964])
+                    ("" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6505 6523])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6524 6543]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6488 6544])
+                    ("+=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7044 7056])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7057 7076]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7025 7077])
+                    ("-=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7575 7587])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7588 7607]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7556 7608])
+                    ("=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8192 8204])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8205 8224]))                          
+                        :type ("Color" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8173 8225]))                  
+                :type "namespace")
+                nil [1325 8228]))          
+      :file "Color.hpp"
+      :pointmax 9790
+      :fsize 9789
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((symbol 8155 . 8172) (symbol 7538 . 7555) (symbol 7007 . 7024) (symbol 6470 . 6487) (symbol 5890 . 5907) (symbol 5397 . 5414) (symbol 4902 . 4919) (symbol 4432 . 4449))
+      :lexical-table 
+        '(("SFML_COLOR_HPP")
+          )
+)
+    (semanticdb-table "ConvexShape.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_CONVEXSHAPE_HPP" variable (:constant-flag t) nil [1144 1164])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1299 1334])
+            ("SFML/Graphics/Shape.hpp" include (:system-flag t) nil [1335 1369])
+            ("vector" include (:system-flag t) nil [1370 1387])
+            ("sf" type
+               (:members 
+                  ( ("Shape" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1635 4283]))                  
+                :type "namespace")
+                nil [1390 4286]))          
+      :file "ConvexShape.hpp"
+      :pointmax 5392
+      :fsize 5391
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1628 . 1634) (punctuation 1626 . 1627) (symbol 1614 . 1625) (symbol 1596 . 1613) (CLASS 1590 . 1595))
+      :lexical-table 
+        '(("SFML_CONVEXSHAPE_HPP")
+          )
+)
+    (semanticdb-table "Drawable.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_DRAWABLE_HPP" variable (:constant-flag t) nil [1141 1158])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1293 1328])
+            ("SFML/Graphics/RenderStates.hpp" include (:system-flag t) nil [1329 1370])
+            ("sf" type
+               (:members 
+                  ( ("RenderTarget" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1388 1407])
+                    ("Drawable" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1626 2435]))                  
+                :type "namespace")
+                nil [1373 2438]))          
+      :file "Drawable.hpp"
+      :pointmax 3823
+      :fsize 3822
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_DRAWABLE_HPP")
+          )
+)
+    (semanticdb-table "Font.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_FONT_HPP" variable (:constant-flag t) nil [1137 1150])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1285 1320])
+            ("SFML/Graphics/Glyph.hpp" include (:system-flag t) nil [1321 1355])
+            ("SFML/Graphics/Texture.hpp" include (:system-flag t) nil [1356 1392])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1393 1426])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1427 1461])
+            ("SFML/System/String.hpp" include (:system-flag t) nil [1462 1495])
+            ("map" include (:system-flag t) nil [1496 1510])
+            ("string" include (:system-flag t) nil [1511 1528])
+            ("vector" include (:system-flag t) nil [1529 1546])
+            ("sf" type
+               (:members 
+                  ( ("InputStream" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1564 1582])
+                    ("Font" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1772 14221]))                  
+                :type "namespace")
+                nil [1549 14224]))          
+      :file "Font.hpp"
+      :pointmax 17083
+      :fsize 17082
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_FONT_HPP")
+          )
+)
+    (semanticdb-table "Glyph.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_GLYPH_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1287 1322])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1323 1356])
+            ("sf" type
+               (:members 
+                  ( ("Glyph" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1540 2212]))                  
+                :type "namespace")
+                nil [1359 2215]))          
+      :file "Glyph.hpp"
+      :pointmax 2754
+      :fsize 2753
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_GLYPH_HPP")
+          )
+)
+    (semanticdb-table "Image.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_IMAGE_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1287 1322])
+            ("SFML/Graphics/Color.hpp" include (:system-flag t) nil [1323 1357])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1358 1391])
+            ("string" include (:system-flag t) nil [1392 1409])
+            ("vector" include (:system-flag t) nil [1410 1427])
+            ("sf" type
+               (:members 
+                  ( ("InputStream" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1445 1463])
+                    ("Image" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1652 10630]))                  
+                :type "namespace")
+                nil [1430 10633]))          
+      :file "Image.hpp"
+      :pointmax 12311
+      :fsize 12310
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_IMAGE_HPP")
+          )
+)
+    (semanticdb-table "PrimitiveType.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_PRIMITIVETYPE_HPP" variable (:constant-flag t) nil [1146 1168])
+            ("sf" type
+               (:members 
+                  ( ("PrimitiveType" type
+                       (:members 
+                          ( ("Points" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1563 1570])
+                            ("Lines" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1614 1620])
+                            ("LinesStrip" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1664 1675])
+                            ("Triangles" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1761 1771])
+                            ("TrianglesStrip" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1815 1830])
+                            ("TrianglesFan" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [1925 1938])
+                            ("Quads" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [2052 2139]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [1538 2140]))                  
+                :type "namespace")
+                nil [1170 2143]))          
+      :file "PrimitiveType.hpp"
+      :pointmax 2195
+      :fsize 2194
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_PRIMITIVETYPE_HPP")
+          )
+)
+    (semanticdb-table "Rect.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RECT_HPP" variable (:constant-flag t) nil [1137 1150])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1285 1319])
+            ("algorithm" include (:system-flag t) nil [1320 1340])
+            ("sf" type
+               (:members 
+                  ( ("Rect" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1588 1595])
+                            ("Rect" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("Rect" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1873 1880])
+                            ("Rect" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("rectLeft" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2437 2448])
+                                    ("rectTop" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2449 2459])
+                                    ("rectWidth" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2460 2472])
+                                    ("rectHeight" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2473 2486]))                                  
+                                :type ("Rect" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2432 2487])
+                            ("Rect" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("position" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vector2" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2922 2949])
+                                    ("size" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vector2" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2950 2973]))                                  
+                                :type ("Rect" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2917 2974])
+                            ("Rect" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("rectangle" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rect" type
+                                             (:template-specifier 
+                                                ( ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3485 3510]))                                  
+                                :type ("Rect" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3480 3511])
+                            ("contains" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("x" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3943 3947])
+                                    ("y" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3948 3952]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [3929 3959])
+                            ("contains" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("point" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vector2" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4324 4348]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [4310 4355])
+                            ("intersects" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("rectangle" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rect" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [4725 4750]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [4709 4757])
+                            ("intersects" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("rectangle" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Rect" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5308 5333])
+                                    ("intersection" variable
+                                       (:reference 1
+                                        :type ("Rect" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [5334 5356]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [5292 5363])
+                            ("left" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5518 5525])
+                            ("top" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5570 5576])
+                            ("width" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5621 5629])
+                            ("height" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5663 5672]))                          )
+                        (reparse-symbol namespacesubparts) [1553 5704])
+                    ("==" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rect" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [6148 6168])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rect" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [6169 6190]))                          
+                        :operator-flag t
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [6109 6191])
+                    ("!=" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rect" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [6641 6661])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Rect" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [6662 6683]))                          
+                        :operator-flag t
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [6602 6684])
+                    ("IntRect" type
+                       (:typedef ("Rect" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [6766 6794])
+                    ("FloatRect" type
+                       (:typedef ("Rect" type
+                             (:template-specifier 
+                                ( ("float" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [6795 6825]))                  
+                :type "namespace")
+                nil [1343 6828]))          
+      :file "Rect.hpp"
+      :pointmax 8764
+      :fsize 8763
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((spp-system-include "SFML/Graphics/Rect.inl" 6686 . 6719) (EXPLICIT 3471 . 3479) (punctuation 3465 . 3466) (symbol 3464 . 3465) (TYPENAME 3455 . 3463) (punctuation 3454 . 3455) (TEMPLATE 3445 . 3453))
+      :lexical-table 
+        '(("SFML_RECT_HPP")
+          )
+)
+    (semanticdb-table "RectangleShape.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RECTANGLESHAPE_HPP" variable (:constant-flag t) nil [1147 1170])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1305 1340])
+            ("SFML/Graphics/Shape.hpp" include (:system-flag t) nil [1341 1375])
+            ("sf" type
+               (:members 
+                  ( ("Shape" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1621 3705]))                  
+                :type "namespace")
+                nil [1378 3708]))          
+      :file "RectangleShape.hpp"
+      :pointmax 4466
+      :fsize 4465
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1614 . 1620) (punctuation 1612 . 1613) (symbol 1597 . 1611) (symbol 1579 . 1596) (CLASS 1573 . 1578))
+      :lexical-table 
+        '(("SFML_RECTANGLESHAPE_HPP")
+          )
+)
+    (semanticdb-table "RenderStates.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RENDERSTATES_HPP" variable (:constant-flag t) nil [1145 1166])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1301 1336])
+            ("SFML/Graphics/BlendMode.hpp" include (:system-flag t) nil [1337 1375])
+            ("SFML/Graphics/Transform.hpp" include (:system-flag t) nil [1376 1414])
+            ("sf" type
+               (:members 
+                  ( ("Shader" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1432 1445])
+                    ("Texture" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1446 1460])
+                    ("RenderStates" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1652 4558]))                  
+                :type "namespace")
+                nil [1417 4561]))          
+      :file "RenderStates.hpp"
+      :pointmax 6539
+      :fsize 6538
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_RENDERSTATES_HPP")
+          )
+)
+    (semanticdb-table "RenderTarget.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RENDERTARGET_HPP" variable (:constant-flag t) nil [1145 1166])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1301 1336])
+            ("SFML/Graphics/Color.hpp" include (:system-flag t) nil [1337 1371])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1372 1405])
+            ("SFML/Graphics/View.hpp" include (:system-flag t) nil [1406 1439])
+            ("SFML/Graphics/Transform.hpp" include (:system-flag t) nil [1440 1478])
+            ("SFML/Graphics/BlendMode.hpp" include (:system-flag t) nil [1479 1517])
+            ("SFML/Graphics/RenderStates.hpp" include (:system-flag t) nil [1518 1559])
+            ("SFML/Graphics/PrimitiveType.hpp" include (:system-flag t) nil [1560 1602])
+            ("SFML/Graphics/Vertex.hpp" include (:system-flag t) nil [1603 1638])
+            ("SFML/System/NonCopyable.hpp" include (:system-flag t) nil [1639 1677])
+            ("sf" type
+               (:members 
+                  ( ("Drawable" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1695 1710])
+                    ("NonCopyable" variable (:type "int") (reparse-symbol namespacesubparts) [1945 16370]))                  
+                :type "namespace")
+                nil [1680 16373]))          
+      :file "RenderTarget.hpp"
+      :pointmax 17533
+      :fsize 17532
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1943 . 1944) (symbol 1930 . 1942) (symbol 1912 . 1929) (CLASS 1906 . 1911))
+      :lexical-table 
+        '(("SFML_RENDERTARGET_HPP")
+          )
+)
+    (semanticdb-table "RenderTexture.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RENDERTEXTURE_HPP" variable (:constant-flag t) nil [1146 1168])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1303 1338])
+            ("SFML/Graphics/Texture.hpp" include (:system-flag t) nil [1339 1375])
+            ("SFML/Graphics/RenderTarget.hpp" include (:system-flag t) nil [1376 1417])
+            ("sf" type
+               (:members 
+                  ( ("priv" type
+                       (:members 
+                          ( ("RenderTextureImpl" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1456 1480]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1435 1482])
+                    ("RenderTarget" variable (:type "int") (reparse-symbol namespacesubparts) [1718 7926]))                  
+                :type "namespace")
+                nil [1420 7929]))          
+      :file "RenderTexture.hpp"
+      :pointmax 10189
+      :fsize 10188
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1711 . 1717) (punctuation 1709 . 1710) (symbol 1695 . 1708) (symbol 1677 . 1694) (CLASS 1671 . 1676))
+      :lexical-table 
+        '(("SFML_RENDERTEXTURE_HPP")
+          )
+)
+    (semanticdb-table "RenderWindow.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_RENDERWINDOW_HPP" variable (:constant-flag t) nil [1145 1166])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1301 1336])
+            ("SFML/Graphics/RenderTarget.hpp" include (:system-flag t) nil [1337 1378])
+            ("SFML/Graphics/Image.hpp" include (:system-flag t) nil [1379 1413])
+            ("SFML/Window/Window.hpp" include (:system-flag t) nil [1414 1447])
+            ("string" include (:system-flag t) nil [1448 1465])
+            ("sf" type
+               (:members 
+                  ( ("RenderTarget" variable (:type "int") (reparse-symbol namespacesubparts) [1730 6666]))                  
+                :type "namespace")
+                nil [1468 6669]))          
+      :file "RenderWindow.hpp"
+      :pointmax 9638
+      :fsize 9637
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1723 . 1729) (punctuation 1721 . 1722) (symbol 1715 . 1721) (PUBLIC 1708 . 1714) (punctuation 1706 . 1707) (symbol 1693 . 1705) (symbol 1675 . 1692) (CLASS 1669 . 1674))
+      :lexical-table 
+        '(("SFML_RENDERWINDOW_HPP")
+          )
+)
+    (semanticdb-table "Shader.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_SHADER_HPP" variable (:constant-flag t) nil [1139 1154])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1289 1324])
+            ("SFML/Graphics/Transform.hpp" include (:system-flag t) nil [1325 1363])
+            ("SFML/Graphics/Color.hpp" include (:system-flag t) nil [1364 1398])
+            ("SFML/Window/GlResource.hpp" include (:system-flag t) nil [1399 1436])
+            ("SFML/System/NonCopyable.hpp" include (:system-flag t) nil [1437 1475])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1476 1510])
+            ("SFML/System/Vector3.hpp" include (:system-flag t) nil [1511 1545])
+            ("map" include (:system-flag t) nil [1546 1560])
+            ("string" include (:system-flag t) nil [1561 1578])
+            ("sf" type
+               (:members 
+                  ( ("InputStream" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1596 1614])
+                    ("Texture" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1615 1629])
+                    ("GlResource" variable (:type "int") (reparse-symbol namespacesubparts) [1836 22085])
+                    ("NonCopyable" variable (:type "int") (reparse-symbol namespacesubparts) [1836 22085]))                  
+                :type "namespace")
+                nil [1581 22088]))          
+      :file "Shader.hpp"
+      :pointmax 26009
+      :fsize 26008
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1834 . 1835) (symbol 1827 . 1833) (symbol 1809 . 1826) (CLASS 1803 . 1808))
+      :lexical-table 
+        '(("SFML_SHADER_HPP")
+          )
+)
+    (semanticdb-table "Shape.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_SHAPE_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1287 1322])
+            ("SFML/Graphics/Drawable.hpp" include (:system-flag t) nil [1323 1360])
+            ("SFML/Graphics/Transformable.hpp" include (:system-flag t) nil [1361 1403])
+            ("SFML/Graphics/VertexArray.hpp" include (:system-flag t) nil [1404 1444])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1445 1479])
+            ("sf" type
+               (:members 
+                  ( ("Transformable" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1734 12428]))                  
+                :type "namespace")
+                nil [1482 12431]))          
+      :file "Shape.hpp"
+      :pointmax 13669
+      :fsize 13668
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1727 . 1733) (punctuation 1725 . 1726) (symbol 1717 . 1725) (PUBLIC 1710 . 1716) (punctuation 1708 . 1709) (symbol 1702 . 1707) (symbol 1684 . 1701) (CLASS 1678 . 1683))
+      :lexical-table 
+        '(("SFML_SHAPE_HPP")
+          )
+)
+    (semanticdb-table "Sprite.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_SPRITE_HPP" variable (:constant-flag t) nil [1139 1154])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1289 1324])
+            ("SFML/Graphics/Drawable.hpp" include (:system-flag t) nil [1325 1362])
+            ("SFML/Graphics/Transformable.hpp" include (:system-flag t) nil [1363 1405])
+            ("SFML/Graphics/Vertex.hpp" include (:system-flag t) nil [1406 1441])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1442 1475])
+            ("sf" type
+               (:members 
+                  ( ("Texture" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1493 1507])
+                    ("Transformable" variable (:type "int") (reparse-symbol namespacesubparts) [1794 8625]))                  
+                :type "namespace")
+                nil [1478 8628]))          
+      :file "Sprite.hpp"
+      :pointmax 10686
+      :fsize 10685
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1787 . 1793) (punctuation 1785 . 1786) (symbol 1777 . 1785) (PUBLIC 1770 . 1776) (punctuation 1768 . 1769) (symbol 1761 . 1767) (symbol 1743 . 1760) (CLASS 1737 . 1742))
+      :lexical-table 
+        '(("SFML_SPRITE_HPP")
+          )
+)
+    (semanticdb-table "Text.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_TEXT_HPP" variable (:constant-flag t) nil [1137 1150])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1285 1320])
+            ("SFML/Graphics/Drawable.hpp" include (:system-flag t) nil [1321 1358])
+            ("SFML/Graphics/Transformable.hpp" include (:system-flag t) nil [1359 1401])
+            ("SFML/Graphics/Font.hpp" include (:system-flag t) nil [1402 1435])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1436 1469])
+            ("SFML/Graphics/VertexArray.hpp" include (:system-flag t) nil [1470 1510])
+            ("SFML/System/String.hpp" include (:system-flag t) nil [1511 1544])
+            ("string" include (:system-flag t) nil [1545 1562])
+            ("vector" include (:system-flag t) nil [1563 1580])
+            ("sf" type
+               (:members 
+                  ( ("Transformable" variable (:type "int") (reparse-symbol namespacesubparts) [1842 11825]))                  
+                :type "namespace")
+                nil [1583 11828]))          
+      :file "Text.hpp"
+      :pointmax 13918
+      :fsize 13917
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1835 . 1841) (punctuation 1833 . 1834) (symbol 1825 . 1833) (PUBLIC 1818 . 1824) (punctuation 1816 . 1817) (symbol 1811 . 1815) (symbol 1793 . 1810) (CLASS 1787 . 1792))
+      :lexical-table 
+        '(("SFML_TEXT_HPP")
+          )
+)
+    (semanticdb-table "Texture.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_TEXTURE_HPP" variable (:constant-flag t) nil [1140 1156])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1291 1326])
+            ("SFML/Graphics/Image.hpp" include (:system-flag t) nil [1327 1361])
+            ("SFML/Window/GlResource.hpp" include (:system-flag t) nil [1362 1399])
+            ("sf" type
+               (:members 
+                  ( ("Window" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1417 1430])
+                    ("RenderTarget" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1431 1450])
+                    ("RenderTexture" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1451 1471])
+                    ("InputStream" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1472 1490])
+                    ("GlResource" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1726 20845]))                  
+                :type "namespace")
+                nil [1402 20848]))          
+      :file "Texture.hpp"
+      :pointmax 24257
+      :fsize 24256
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1724 . 1725) (symbol 1716 . 1723) (symbol 1698 . 1715) (CLASS 1692 . 1697))
+      :lexical-table 
+        '(("SFML_TEXTURE_HPP")
+          )
+)
+    (semanticdb-table "Transform.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_TRANSFORM_HPP" variable (:constant-flag t) nil [1142 1160])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1295 1330])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1331 1364])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1365 1399])
+            ("sf" type
+               (:members 
+                  ( ("Transform" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1584 13042])
+                    ("" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Transform" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13526 13548])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Transform" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13549 13572]))                          
+                        :type ("Transform" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13505 13573])
+                    ("=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :type ("Transform" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14049 14065])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Transform" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14066 14089]))                          
+                        :type ("Transform" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14026 14090])
+                    ("" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Transform" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14559 14581])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Vector2f" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14582 14604]))                          
+                        :type ("Vector2f" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [14539 14605]))                  
+                :type "namespace")
+                nil [1402 14608]))          
+      :file "Transform.hpp"
+      :pointmax 16048
+      :fsize 16047
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((symbol 14521 . 14538) (symbol 14008 . 14025) (symbol 13487 . 13504))
+      :lexical-table 
+        '(("SFML_TRANSFORM_HPP")
+          )
+)
+    (semanticdb-table "Transformable.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_TRANSFORMABLE_HPP" variable (:constant-flag t) nil [1146 1168])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1303 1338])
+            ("SFML/Graphics/Transform.hpp" include (:system-flag t) nil [1339 1377])
+            ("sf" type
+               (:members 
+                  ( ("Transformable" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1599 12221]))                  
+                :type "namespace")
+                nil [1380 12224]))          
+      :file "Transformable.hpp"
+      :pointmax 16397
+      :fsize 16396
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_TRANSFORMABLE_HPP")
+          )
+)
+    (semanticdb-table "Vertex.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_VERTEX_HPP" variable (:constant-flag t) nil [1139 1154])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1289 1324])
+            ("SFML/Graphics/Color.hpp" include (:system-flag t) nil [1325 1359])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1360 1394])
+            ("sf" type
+               (:members 
+                  ( ("Vertex" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1599 3849]))                  
+                :type "namespace")
+                nil [1397 3852]))          
+      :file "Vertex.hpp"
+      :pointmax 5616
+      :fsize 5615
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_VERTEX_HPP")
+          )
+)
+    (semanticdb-table "VertexArray.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_VERTEXARRAY_HPP" variable (:constant-flag t) nil [1144 1164])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1299 1334])
+            ("SFML/Graphics/Vertex.hpp" include (:system-flag t) nil [1335 1370])
+            ("SFML/Graphics/PrimitiveType.hpp" include (:system-flag t) nil [1371 1413])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1414 1447])
+            ("SFML/Graphics/Drawable.hpp" include (:system-flag t) nil [1448 1485])
+            ("vector" include (:system-flag t) nil [1486 1503])
+            ("sf" type
+               (:members 
+                  ( ("Drawable" variable (:type "int") (reparse-symbol namespacesubparts) [1745 7020]))                  
+                :type "namespace")
+                nil [1506 7023]))          
+      :file "VertexArray.hpp"
+      :pointmax 7769
+      :fsize 7768
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((PUBLIC 1738 . 1744) (punctuation 1736 . 1737) (symbol 1724 . 1735) (symbol 1706 . 1723) (CLASS 1700 . 1705))
+      :lexical-table 
+        '(("SFML_VERTEXARRAY_HPP")
+          )
+)
+    (semanticdb-table "View.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_VIEW_HPP" variable (:constant-flag t) nil [1137 1150])
+            ("SFML/Graphics/Export.hpp" include (:system-flag t) nil [1285 1320])
+            ("SFML/Graphics/Rect.hpp" include (:system-flag t) nil [1321 1354])
+            ("SFML/Graphics/Transform.hpp" include (:system-flag t) nil [1355 1393])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1394 1428])
+            ("sf" type
+               (:members 
+                  ( ("View" variable (:type ("SFML_GRAPHICS_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1637 10340]))                  
+                :type "namespace")
+                nil [1431 10343]))          
+      :file "View.hpp"
+      :pointmax 12286
+      :fsize 12285
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_VIEW_HPP")
+          )
+)
+    (semanticdb-table "Export.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_GRAPHICS_EXPORT_HPP" variable (:constant-flag t) nil [1148 1172])
+            ("SFML/Config.hpp" include (:system-flag t) nil [1307 1333])
+            ("SFML_GRAPHICS_API" variable (:constant-flag t) nil [1602 1619]))          
+      :file "Export.hpp"
+      :pointmax 1681
+      :fsize 1680
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_GRAPHICS_EXPORT_HPP")
+          ("SFML_GRAPHICS_API" . ((symbol "SFML_API_IMPORT" 1620 . 1635)))
+          )
+))
+  :file "!usr!include!SFML!Graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

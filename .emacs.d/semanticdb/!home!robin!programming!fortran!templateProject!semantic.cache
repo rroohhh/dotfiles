@@ -1,0 +1,18 @@
+;; Object templateProject/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "templateProject/"
+  :tables
+  (list
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-gmake-mode
+      :tags 
+        '( ("all" function nil nil [1 43])
+            ("release" function nil nil [43 116]))          
+      :file "Makefile"
+      :pointmax 116
+      :fsize 115
+      :lastmodtime '(22084 64538 529924 283000)
+      :unmatched-syntax '((shell-command 102 . 115) (bol 101 . 101) (shell-command 102 . 115) (bol 101 . 101) (shell-command 53 . 97) (bol 52 . 52) (shell-command 53 . 71) (bol 52 . 52) (shell-command 53 . 140) (bol 52 . 52) (shell-command 53 . 62) (bol 52 . 52) (shell-command 29 . 42) (bol 28 . 28))))
+  :file "!home!robin!programming!fortran!templateProject!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

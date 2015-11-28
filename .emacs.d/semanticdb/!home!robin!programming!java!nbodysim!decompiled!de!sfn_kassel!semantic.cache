@@ -1,0 +1,143 @@
+;; Object sfn_kassel/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sfn_kassel/"
+  :tables
+  (list
+    (semanticdb-table "nbodysim.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("de.sfn_kassel" package nil nil [1 23])
+            ("de.sfn_kassel.SObject" include nil nil [25 54])
+            ("de.sfn_kassel.Simulation" include nil nil [55 87])
+            ("java.awt.Color" include nil nil [89 111])
+            ("java.nio.ByteBuffer" include nil nil [112 139])
+            ("java.nio.DoubleBuffer" include nil nil [140 169])
+            ("java.nio.FloatBuffer" include nil nil [170 198])
+            ("java.nio.IntBuffer" include nil nil [199 225])
+            ("java.util.ArrayList" include nil nil [226 253])
+            ("java.util.Iterator" include nil nil [254 280])
+            ("java.util.Random" include nil nil [281 305])
+            ("org.lwjgl.BufferUtils" include nil nil [307 336])
+            ("org.lwjgl.glfw.Callbacks" include nil nil [337 369])
+            ("org.lwjgl.glfw.GLFW" include nil nil [370 397])
+            ("org.lwjgl.glfw.GLFWErrorCallback" include nil nil [398 438])
+            ("org.lwjgl.glfw.GLFWFramebufferSizeCallback" include nil nil [439 489])
+            ("org.lwjgl.glfw.GLFWKeyCallback" include nil nil [490 528])
+            ("org.lwjgl.glfw.GLFWMouseButtonCallback" include nil nil [529 575])
+            ("org.lwjgl.glfw.GLFWScrollCallback" include nil nil [576 617])
+            ("org.lwjgl.glfw.GLFWvidmode" include nil nil [618 652])
+            ("org.lwjgl.opengl.GL11" include nil nil [653 682])
+            ("org.lwjgl.opengl.GL15" include nil nil [683 712])
+            ("org.lwjgl.opengl.GL20" include nil nil [713 742])
+            ("org.lwjgl.opengl.GL30" include nil nil [743 772])
+            ("org.lwjgl.opengl.GLContext" include nil nil [773 807])
+            ("nbodysim" type
+               (:typemodifiers ("public")
+                :interfaces ("Runnable")
+                :members 
+                  ( ("errorCallback" variable
+                       (:typemodifiers ("private" "static")
+                        :type "GLFWErrorCallback")
+                        (reparse-symbol class_member_declaration) [857 904])
+                    ("keyCallback" variable
+                       (:typemodifiers ("private" "static")
+                        :type "GLFWKeyCallback")
+                        (reparse-symbol class_member_declaration) [909 952])
+                    ("mouseCallback" variable
+                       (:typemodifiers ("private" "static")
+                        :type "GLFWMouseButtonCallback")
+                        (reparse-symbol class_member_declaration) [957 1010])
+                    ("scrollCallback" variable
+                       (:typemodifiers ("private" "static")
+                        :type "GLFWScrollCallback")
+                        (reparse-symbol class_member_declaration) [1015 1064])
+                    ("sizeCallback" variable
+                       (:typemodifiers ("private" "static")
+                        :type "GLFWFramebufferSizeCallback")
+                        (reparse-symbol class_member_declaration) [1069 1125])
+                    ("mouseIsDown" variable (:type "boolean") (reparse-symbol class_member_declaration) [1130 1158])
+                    ("drawPot" variable (:type "int") (reparse-symbol class_member_declaration) [1163 1179])
+                    ("oId" variable (:type "int") (reparse-symbol class_member_declaration) [1184 1196])
+                    ("rand" variable (:type "Random") (reparse-symbol class_member_declaration) [1201 1228])
+                    ("window" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [1233 1253])
+                    ("sim" variable
+                       (:typemodifiers ("private")
+                        :type "Simulation")
+                        (reparse-symbol class_member_declaration) [1258 1288])
+                    ("radius" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1293 1323])
+                    ("focus" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1328 1358])
+                    ("fID" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1363 1383])
+                    ("dx" variable
+                       (:typemodifiers ("private")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [1388 1412])
+                    ("dy" variable
+                       (:typemodifiers ("private")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [1417 1441])
+                    ("start" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1447 1805])
+                    ("init" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1811 7443])
+                    ("dist" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("px" variable (:type "float") (reparse-symbol formal_parameters) [7468 7476])
+                            ("py" variable (:type "float") (reparse-symbol formal_parameters) [7478 7486])
+                            ("width" variable (:type "float") (reparse-symbol formal_parameters) [7488 7499])
+                            ("height" variable (:type "float") (reparse-symbol formal_parameters) [7501 7513])
+                            ("x" variable (:type "float") (reparse-symbol formal_parameters) [7515 7522])
+                            ("y" variable (:type "float") (reparse-symbol formal_parameters) [7524 7531]))                          
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [7449 7718])
+                    ("loop" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7724 18956])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [18986 18999]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [18962 19042])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [19048 19299]))                  
+                :type "class")
+                nil [809 19301]))          
+      :file "nbodysim.java"
+      :pointmax 19302
+      :fsize 19349
+      :lastmodtime '(22104 57626 297880 745000)
+      :unmatched-syntax nil)
+    (semanticdb-table "SObject.java"
+      :file "SObject.java"
+      :fsize 2237
+      :lastmodtime '(22084 57700 189932 0))
+    (semanticdb-table "Simulation.java"
+      :file "Simulation.java"
+      :fsize 5778
+      :lastmodtime '(22084 57700 213265 0)))
+  :file "!home!robin!programming!java!nbodysim!decompiled!de!sfn_kassel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

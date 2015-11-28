@@ -1,0 +1,49 @@
+;; Object renderSound/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "renderSound/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("iostream" include (:system-flag t) nil [38 57])
+            ("limits" include (:system-flag t) nil [58 75])
+            ("AL/al.h" include (:system-flag t) nil [77 95])
+            ("AL/alc.h" include (:system-flag t) nil [96 115])
+            ("AL/alext.h" include (:system-flag t) nil [116 137])
+            ("alcLoopbackOpenDeviceSOFT" variable
+               (:typemodifiers ("static")
+                :type ("LPALCLOOPBACKOPENDEVICESOFT" type (:type "class") nil nil))
+                nil [139 200])
+            ("alcIsRenderFormatSupportedSOFT" variable
+               (:typemodifiers ("static")
+                :type ("LPALCISRENDERFORMATSUPPORTEDSOFT" type (:type "class") nil nil))
+                nil [201 272])
+            ("alcRenderSamplesSOFT" variable
+               (:typemodifiers ("static")
+                :type ("LPALCRENDERSAMPLESSOFT" type (:type "class") nil nil))
+                nil [273 324])
+            ("createSineWave" function
+               (:typemodifiers ("static")
+                :type "int")
+                nil [326 961])
+            ("main" function (:type "int") nil [963 3181]))          
+      :file "main.cpp"
+      :pointmax 3182
+      :fsize 3181
+      :lastmodtime '(22082 11623 143107 310000)
+      :unmatched-syntax nil)
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-gmake-mode
+      :tags 
+        '( ("all" function nil nil [1 82]))          
+      :file "Makefile"
+      :pointmax 82
+      :fsize 81
+      :lastmodtime '(22081 63879 87886 282000)
+      :unmatched-syntax '((shell-command 7 . 81) (bol 6 . 6) (shell-command 7 . 81) (bol 6 . 6))))
+  :file "!home!robin!programming!c++!renderSound!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

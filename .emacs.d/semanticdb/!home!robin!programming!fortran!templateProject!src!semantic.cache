@@ -1,0 +1,41 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-gmake-mode
+      :tags 
+        '( ("TOOLDIR" variable (:default-value ("./tools")) nil [1658 1676])
+            ("BINDIR" variable (:default-value ("./bin")) nil [1676 1692])
+            ("DIRS" variable (:default-value ("blockdata" "calgomat" "eigfin" "elemulti" "elmatint" "elmatrix" "errorsp" "exresult" "formfunction" "funcc1mg" "funcc2mg" "funcc3mg" "funcc4mg" "glofunsp" "inpout" "inmulti" "intgra" "ioelemen" "iosolvect" "jobsysdu" "matrixcompact" "matrixenvelop" "main" "mixedfunction" "result" "solution" "solutemg" "sortsear" "upgrid" "vector")) nil [1692 2035])
+            ("ALLDIRS" variable (:default-value ("$(DIRS)" "tools" "doc")) nil [2036 2064])
+            ("RCSFILES" variable (:default-value ("./RCS/Makefile,v" "./RCS/Makefile.sun,v" "./RCS/Makefile.AIX,v" "./RCS/files,v")) nil [2065 2162])
+            ("CFLAGS" variable (:default-value ("-DLinuX" "-O4")) nil [2163 2184])
+            ("FC" variable (:default-value ("gfortran")) nil [2218 2232])
+            ("FFLAGM" variable (:default-value ("-I../includes" "-I../mods" "-cpp" "-MM")) nil [2232 2274])
+            ("FFLAGS" variable (:default-value ("-I../includes" "-J../mods" "-O3")) nil [2274 2311])
+            ("SHELL" variable (:default-value ("/bin/bash")) nil [2480 2499])
+            ("VERSION" variable (:default-value ("Ver_3_0_0")) nil [2499 2519])
+            ("all" function (:arguments ("do-it-all")) nil [2544 2559])
+            (".depend" include nil nil [2676 2692])
+            ("do-it-all" function (:arguments ("$(BINDIR)/hfsfem")) nil [2692 2720])
+            ("do-it-all" function (:arguments ("depend")) nil [2725 2743])
+            ("dep" function (:arguments ("dummy")) nil [2750 2875])
+            ("depend" function (:arguments ("dummy")) nil [2750 2875])
+            ("$(BINDIR)" function (:arguments ("$(DIRS)" "$(BINDIR)/hfsfem.a")) nil [2876 2951])
+            ("$(BINDIR)" function (:arguments ("subdirs")) nil [2952 2981])
+            ("subdirs" function (:arguments ("dummy")) nil [2982 3102])
+            ("rcs" function (:arguments ("dummy")) nil [3103 3196])
+            ("tar" function (:arguments ("files")) nil [3284 3328])
+            ("clean" function (:arguments ("dummy")) nil [3329 3385])
+            ("proper" function (:arguments ("dummy")) nil [3386 3606])
+            ("dummy" function nil nil [3607 3615]))          
+      :file "Makefile"
+      :pointmax 3619
+      :fsize 3618
+      :lastmodtime '(22084 59935 252313 431000)
+      :unmatched-syntax '((shell-command 3258 . 3282) (bol 3257 . 3257) (shell-command 3227 . 3256) (bol 3226 . 3226))))
+  :file "!home!robin!programming!fortran!templateProject!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

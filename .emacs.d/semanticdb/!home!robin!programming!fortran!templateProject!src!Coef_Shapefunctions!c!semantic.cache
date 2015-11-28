@@ -1,0 +1,109 @@
+;; Object c/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c/"
+  :tables
+  (list
+    (semanticdb-table "coeff_shapefunctions.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [320 338])
+            ("getopt.h" include (:system-flag t) nil [339 358])
+            ("gmp.h" include (:system-flag t) nil [359 375])
+            ("MORD" variable (:constant-flag t) nil [385 389])
+            ("NMAX" variable (:constant-flag t) nil [441 445])
+            ("config" type
+               (:members 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [569 584])
+                    ("verbose" variable (:type "int") (reparse-symbol classsubparts) [587 600])
+                    ("nord" variable (:type "unsigned long int") (reparse-symbol classsubparts) [603 626])
+                    ("all" variable (:type "int") (reparse-symbol classsubparts) [629 637])
+                    ("noout" variable (:type "int") (reparse-symbol classsubparts) [640 650]))                  
+                :type "struct")
+                nil [551 653])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [665 674])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [674 686]))                  
+                :type "int")
+                nil [656 2476])
+            ("get_options" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2496 2505])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2506 2518])
+                    ("config" variable
+                       (:pointer 1
+                        :type ("config" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2519 2541]))                  
+                :type "int")
+                nil [2479 3665])
+            ("usage" function
+               (:arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3677 3688]))                  
+                :type "int")
+                nil [3667 4272])
+            ("do_work" function
+               (:arguments 
+                  ( ("config" variable
+                       (:pointer 1
+                        :type ("config" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4288 4310]))                  
+                :type "int")
+                nil [4275 9785])
+            ("invert_matrix" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type ("mpq_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9807 9816])
+                    ("p" variable
+                       (:pointer 1
+                        :type "unsigned long int")
+                        (reparse-symbol arg-sub-list) [9817 9838])
+                    ("n" variable (:type "unsigned long int") (reparse-symbol arg-sub-list) [9839 9859])
+                    ("verbose" variable (:type "int") (reparse-symbol arg-sub-list) [9864 9877]))                  
+                :type "int")
+                nil [9789 12437])
+            ("mul_matrix" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type ("mpq_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12454 12463])
+                    ("b" variable
+                       (:pointer 1
+                        :type ("mpq_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12464 12473])
+                    ("c" variable
+                       (:pointer 1
+                        :type ("mpq_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12474 12483])
+                    ("n" variable (:type "unsigned long int") (reparse-symbol arg-sub-list) [12484 12504])
+                    ("verbose" variable (:type "int") (reparse-symbol arg-sub-list) [12513 12525]))                  
+                :type "int")
+                nil [12439 13599]))          
+      :file "coeff_shapefunctions.c"
+      :pointmax 13604
+      :fsize 13603
+      :lastmodtime '(22084 59935 125645 774000)
+      :unmatched-syntax nil))
+  :file "!home!robin!programming!fortran!templateProject!src!Coef_Shapefunctions!c!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

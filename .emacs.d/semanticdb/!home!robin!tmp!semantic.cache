@@ -1,0 +1,44 @@
+;; Object tmp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "tmp/"
+  :tables
+  (list
+    (semanticdb-table "tmp.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [31 40])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [41 54]))                  
+                :type "int")
+                nil [22 167]))          
+      :file "tmp.cpp"
+      :pointmax 168
+      :fsize 167
+      :lastmodtime '(22084 31305 620499 849000)
+      :unmatched-syntax nil)
+    (semanticdb-table "test.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("limits" include (:system-flag t) nil [21 38])
+            ("cmath" include (:system-flag t) nil [39 55])
+            ("SIZE" variable (:constant-flag t) nil [65 69])
+            ("main" function (:type "int") nil [79 251]))          
+      :file "test.cpp"
+      :pointmax 252
+      :fsize 251
+      :lastmodtime '(22098 809 575595 556000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SIZE" . ((number "1000000" 70 . 77)))
+          )
+))
+  :file "!home!robin!tmp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,26 @@
+;; Object max_malloc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "max_malloc/"
+  :tables
+  (list
+    (semanticdb-table "main.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("unistd.h" include (:system-flag t) nil [21 40])
+            ("malloc_wrap" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [67 79]))                  
+                :type "void")
+                nil [42 262])
+            ("main" function (:type "int") nil [264 576]))          
+      :file "main.c"
+      :pointmax 577
+      :fsize 576
+      :lastmodtime '(22094 1712 470619 214000)
+      :unmatched-syntax nil))
+  :file "!home!robin!programming!c++!max_malloc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

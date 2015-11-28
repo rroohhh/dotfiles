@@ -1,0 +1,59 @@
+;; Object halfband/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "halfband/"
+  :tables
+  (list
+    (semanticdb-table "hb.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [34 53])
+            ("stdlib.h" include (:system-flag t) nil [68 87])
+            ("math.h" include (:system-flag t) nil [102 119])
+            ("filter_env" type
+               (:members 
+                  ( ("buf" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [242 254])
+                    ("state" variable (:type "int") (reparse-symbol classsubparts) [259 269])
+                    ("lp" variable (:type "unsigned int") (reparse-symbol classsubparts) [274 290])
+                    ("sum" variable (:type "unsigned int") (reparse-symbol classsubparts) [295 312])
+                    ("led" variable (:type "int") (reparse-symbol classsubparts) [317 325]))                  
+                :type "struct")
+                nil [218 328])
+            ("N_FILTER" variable (:constant-flag t) nil [338 346])
+            ("fi" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("filter_env" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [349 387])
+            ("halfband" function
+               (:arguments 
+                  ( ("sample" variable (:type "int") (reparse-symbol arg-sub-list) [403 414])
+                    ("r" variable (:type "int") (reparse-symbol arg-sub-list) [415 421])
+                    ("fbase" variable
+                       (:pointer 1
+                        :type ("filter_env" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [422 448]))                  
+                :type "void")
+                nil [389 2468])
+            ("main" function (:type "int") nil [2470 2831]))          
+      :file "hb.c"
+      :pointmax 2832
+      :fsize 2831
+      :lastmodtime '(22086 9618 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("N_FILTER" . ((number "8" 347 . 348)))
+          )
+))
+  :file "!home!robin!programming!c++!halfband!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

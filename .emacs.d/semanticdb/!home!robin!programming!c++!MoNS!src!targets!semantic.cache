@@ -1,0 +1,349 @@
+;; Object targets/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "targets/"
+  :tables
+  (list
+    (semanticdb-table "Target.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("MONS_TARGET_H" variable (:constant-flag t) nil [71 84])
+            ("TargetInfo.h" include nil nil [87 110])
+            ("../modules/Module.h" include nil nil [111 141])
+            ("../simulation/Simulation.h" include nil nil [142 179])
+            ("Target" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [196 203])
+                    ("Target" function
+                       (:constructor-flag t
+                        :type ("Target" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [208 220])
+                    ("allocate" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [250 263])
+                            ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [255 273]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [227 278])
+                    ("reallocate" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [309 322])
+                            ("newSize" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [314 335])
+                            ("src" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [336 346]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [284 351])
+                    ("deallocate" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("dst" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [380 390]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [357 395])
+                    ("copy" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("src" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [418 428])
+                            ("dst" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [429 439])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [440 453])
+                            ("srcOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [445 468])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [469 482])
+                            ("dstOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [474 497])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [498 511])
+                            ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [503 521]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [401 526])
+                    ("init" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("modules" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("Module" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [549 578]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [532 583])
+                    ("preInit" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol classsubparts) [589 615])
+                    ("postInit" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol classsubparts) [621 648])
+                    ("finish" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol classsubparts) [654 679])
+                    ("step" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type ("Simulation::StepInfo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [702 723]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [685 728])
+                    ("getTargetInfo" function (:type ("TargetInfo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [734 796])
+                    ("protected" label nil (reparse-symbol classsubparts) [799 809])
+                    ("targetInfo" variable
+                       (:default-value "TargetInfo()"
+                        :type ("auto" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [814 845]))                  
+                :type "class")
+                nil [181 848]))          
+      :file "Target.h"
+      :pointmax 874
+      :fsize 873
+      :lastmodtime '(22084 57748 909929 0)
+      :unmatched-syntax '((punctuation 796 . 797) (punctuation 220 . 221))
+      :lexical-table 
+        '(("MONS_TARGET_H")
+          )
+)
+    (semanticdb-table "TargetInfo.h"
+      :file "TargetInfo.h"
+      :fsize 221
+      :lastmodtime '(22084 57748 906596 0))
+
+    (semanticdb-table "TargetCPUSerial.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("MONS_TARGETCPUSERIAL_H" variable (:constant-flag t) nil [80 102])
+            ("Target.h" include nil nil [105 124])
+            ("cstring" include (:system-flag t) nil [125 143])
+            ("TargetCPUSerial" type
+               (:superclasses 
+                  ( ("Target" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [185 192])
+                    ("TargetCPUSerial" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("TargetCPUSerial" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [197 215])
+                    ("allocate" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :arguments 
+                          ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [236 249])
+                            ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [241 259]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [221 260])
+                    ("reallocate" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :arguments 
+                          ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [283 296])
+                            ("newSize" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [288 309])
+                            ("src" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [310 320]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [266 321])
+                    ("deallocate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dst" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [342 352]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [327 353])
+                    ("copy" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [368 378])
+                            ("dst" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [379 389])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [390 403])
+                            ("srcOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [395 418])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [419 432])
+                            ("dstOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [424 447])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [448 461])
+                            ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [453 471]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [359 472])
+                    ("init" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("modules" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("Module" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [487 516]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [478 517])
+                    ("preInit" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [523 537])
+                    ("postInit" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [543 558])
+                    ("finish" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [564 577])
+                    ("step" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("Simulation::StepInfo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [592 613]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [583 614])
+                    ("protected" label nil (reparse-symbol classsubparts) [616 626])
+                    ("modules" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("Module" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [631 659]))                  
+                :type "class")
+                nil [145 662]))          
+      :file "TargetCPUSerial.h"
+      :pointmax 697
+      :fsize 696
+      :lastmodtime '(22084 57748 906596 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MONS_TARGETCPUSERIAL_H")
+          )
+)
+    (semanticdb-table "TargetCPUSerial.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("TargetCPUSerial.h" include nil nil [41 69])
+            ("TargetCPUSerial" function
+               (:constructor-flag t
+                :parent "TargetCPUSerial"
+                :type ("TargetCPUSerial" type (:type "class") nil nil))
+                nil [71 198])
+            ("allocate" function
+               (:pointer 1
+                :parent "TargetCPUSerial"
+                :arguments 
+                  ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [232 245])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [237 255]))                  
+                :type "void")
+                nil [200 284])
+            ("reallocate" function
+               (:pointer 1
+                :parent "TargetCPUSerial"
+                :arguments 
+                  ( ("" variable (:type "long") (reparse-symbol arg-sub-list) [320 333])
+                    ("newSize" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [325 346])
+                    ("src" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [347 357]))                  
+                :type "void")
+                nil [286 395])
+            ("deallocate" function
+               (:parent "TargetCPUSerial"
+                :arguments 
+                  ( ("dst" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [429 439]))                  
+                :type "int")
+                nil [397 473])
+            ("copy" function
+               (:parent "TargetCPUSerial"
+                :arguments 
+                  ( ("src" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [501 511])
+                    ("dst" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [512 522])
+                    ("" variable (:type "long") (reparse-symbol arg-sub-list) [523 536])
+                    ("srcOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [528 551])
+                    ("" variable (:type "long") (reparse-symbol arg-sub-list) [552 565])
+                    ("dstOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [557 580])
+                    ("" variable (:type "long") (reparse-symbol arg-sub-list) [581 594])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [586 604]))                  
+                :type "int")
+                nil [475 674])
+            ("init" function
+               (:parent "TargetCPUSerial"
+                :arguments 
+                  ( ("modules" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("Module" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [702 731]))                  
+                :type "int")
+                nil [676 778])
+            ("preInit" function
+               (:parent "TargetCPUSerial"
+                :type "int")
+                nil [780 828])
+            ("postInit" function
+               (:parent "TargetCPUSerial"
+                :type "int")
+                nil [830 879])
+            ("finish" function
+               (:parent "TargetCPUSerial"
+                :type "int")
+                nil [881 928])
+            ("step" function
+               (:parent "TargetCPUSerial"
+                :arguments 
+                  ( ("info" variable (:type ("Simulation::StepInfo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [956 982]))                  
+                :type "int")
+                nil [930 1067]))          
+      :file "TargetCPUSerial.cpp"
+      :pointmax 1069
+      :fsize 1068
+      :lastmodtime '(22084 57748 909929 0)
+      :unmatched-syntax nil))
+  :file "!home!robin!programming!c++!MoNS!src!targets!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

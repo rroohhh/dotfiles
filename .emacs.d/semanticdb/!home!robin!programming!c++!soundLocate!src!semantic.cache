@@ -1,0 +1,35 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cmath" include (:system-flag t) nil [21 37])
+            ("cstdlib" include (:system-flag t) nil [38 56])
+            ("limits" include (:system-flag t) nil [57 74])
+            ("chrono" include (:system-flag t) nil [75 92])
+            ("algorithm" include (:system-flag t) nil [93 113])
+            ("iterator" include (:system-flag t) nil [114 133])
+            ("fstream" include (:system-flag t) nil [134 152])
+            ("SFML/Audio.hpp" include (:system-flag t) nil [154 179])
+            ("fft/FFT.h" include nil nil [181 201])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [212 221])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [222 235]))                  
+                :type "int")
+                nil [203 1855]))          
+      :file "main.cpp"
+      :pointmax 1856
+      :fsize 1855
+      :lastmodtime '(22084 57722 186597 0)
+      :unmatched-syntax nil))
+  :file "!home!robin!programming!c++!soundLocate!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

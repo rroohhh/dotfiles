@@ -1,0 +1,31 @@
+;; Object progs/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "progs/"
+  :tables
+  (list
+    (semanticdb-table "toBinary.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("PNMImage.h" include nil nil [19 40])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [51 60])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [61 74]))                  
+                :type "int")
+                nil [42 267]))          
+      :file "toBinary.cpp"
+      :pointmax 268
+      :fsize 267
+      :lastmodtime '(22096 40501 575130 635000)
+      :unmatched-syntax nil)
+    (semanticdb-table "PNMImage.h"
+      :file "PNMImage.h"
+      :fsize 566
+      :lastmodtime '(22096 40322 542326 781000)))
+  :file "!home!robin!projects!depthFieldFont!progs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

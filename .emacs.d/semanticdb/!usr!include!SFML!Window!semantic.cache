@@ -1,0 +1,749 @@
+;; Object Window/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Window/"
+  :tables
+  (list
+    (semanticdb-table "Context.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_CONTEXT_HPP" variable (:constant-flag t) nil [1140 1156])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1291 1324])
+            ("SFML/Window/GlResource.hpp" include (:system-flag t) nil [1325 1362])
+            ("SFML/Window/ContextSettings.hpp" include (:system-flag t) nil [1363 1405])
+            ("SFML/System/NonCopyable.hpp" include (:system-flag t) nil [1406 1444])
+            ("sf" type
+               (:members 
+                  ( ("priv" type
+                       (:members 
+                          ( ("GlContext" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1483 1499]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1462 1501])
+                    ("GlFunctionPointer" function
+                       (:prototype-flag t
+                        :function-pointer t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1511 1539])
+                    ("GlResource" variable (:type "int") (reparse-symbol namespacesubparts) [1748 3772])
+                    ("NonCopyable" variable (:type "int") (reparse-symbol namespacesubparts) [1748 3772]))                  
+                :type "namespace")
+                nil [1447 3775]))          
+      :file "Context.hpp"
+      :pointmax 4983
+      :fsize 4982
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1746 . 1747) (symbol 1738 . 1745) (symbol 1722 . 1737) (CLASS 1716 . 1721) (TYPEDEF 1503 . 1510))
+      :lexical-table 
+        '(("SFML_CONTEXT_HPP")
+          )
+)
+    (semanticdb-table "ContextSettings.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_CONTEXTSETTINGS_HPP" variable (:constant-flag t) nil [1148 1172])
+            ("sf" type
+               (:members 
+                  ( ("ContextSettings" type
+                       (:members 
+                          ( ("Attribute" type
+                               (:members 
+                                  ( ("Default" variable
+                                       (:constant-flag t
+                                        :default-value (1677 1678)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1667 1678])
+                                    ("Core" variable
+                                       (:constant-flag t
+                                        :default-value (1794 1795)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1784 1795])
+                                    ("Debug" variable
+                                       (:constant-flag t
+                                        :default-value (1840 1841)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1830 1841]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [1638 1875])
+                            ("ContextSettings" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("depth" variable
+                                       (:default-value "0"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2415 2437])
+                                    ("stencil" variable
+                                       (:default-value "0"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2439 2463])
+                                    ("antialiasing" variable
+                                       (:default-value "0"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2465 2494])
+                                    ("major" variable
+                                       (:default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2496 2518])
+                                    ("minor" variable
+                                       (:default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2520 2542])
+                                    ("attributes" variable
+                                       (:default-value "Default"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [2544 2577]))                                  
+                                :type ("ContextSettings" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [2399 2785])
+                            ("depthBits" variable (:type "unsigned int") (reparse-symbol classsubparts) [2940 2963])
+                            ("stencilBits" variable (:type "unsigned int") (reparse-symbol classsubparts) [3006 3031])
+                            ("antialiasingLevel" variable (:type "unsigned int") (reparse-symbol classsubparts) [3074 3105])
+                            ("majorVersion" variable (:type "unsigned int") (reparse-symbol classsubparts) [3137 3163])
+                            ("minorVersion" variable (:type "unsigned int") (reparse-symbol classsubparts) [3224 3250])
+                            ("attributeFlags" variable (:type ("Uint32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3311 3339]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [1413 3397]))                  
+                :type "namespace")
+                nil [1175 3400]))          
+      :file "ContextSettings.hpp"
+      :pointmax 6294
+      :fsize 6293
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((EXPLICIT 2390 . 2398) (number 1845 . 1846) (punctuation 1843 . 1844) (punctuation 1842 . 1843) (number 1799 . 1800) (punctuation 1797 . 1798) (punctuation 1796 . 1797) (number 1845 . 1846) (punctuation 1843 . 1844) (punctuation 1842 . 1843) (number 1799 . 1800) (punctuation 1797 . 1798) (punctuation 1796 . 1797))
+      :lexical-table 
+        '(("SFML_CONTEXTSETTINGS_HPP")
+          )
+)
+    (semanticdb-table "Event.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_EVENT_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Config.hpp" include (:system-flag t) nil [1287 1313])
+            ("SFML/Window/Joystick.hpp" include (:system-flag t) nil [1314 1349])
+            ("SFML/Window/Keyboard.hpp" include (:system-flag t) nil [1350 1385])
+            ("SFML/Window/Mouse.hpp" include (:system-flag t) nil [1386 1418])
+            ("SFML/Window/Sensor.hpp" include (:system-flag t) nil [1419 1452])
+            ("sf" type
+               (:members 
+                  ( ("Event" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1663 1670])
+                            ("SizeEvent" type
+                               (:members 
+                                  ( ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [1893 1912])
+                                    ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [1948 1968]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [1862 2002])
+                            ("KeyEvent" type
+                               (:members 
+                                  ( ("code" variable (:type ("Keyboard::Key" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2243 2262])
+                                    ("alt" variable (:type "bool") (reparse-symbol classsubparts) [2317 2335])
+                                    ("control" variable (:type "bool") (reparse-symbol classsubparts) [2377 2399])
+                                    ("shift" variable (:type "bool") (reparse-symbol classsubparts) [2441 2461])
+                                    ("system" variable (:type "bool") (reparse-symbol classsubparts) [2503 2524]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [2213 2564])
+                            ("TextEvent" type
+                               (:members 
+                                  ( ("unicode" variable (:type ("Uint32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2790 2805]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [2759 2855])
+                            ("MouseMoveEvent" type
+                               (:members 
+                                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [3091 3097])
+                                    ("y" variable (:type "int") (reparse-symbol classsubparts) [3185 3191]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [3055 3276])
+                            ("MouseButtonEvent" type
+                               (:members 
+                                  ( ("button" variable (:type ("Mouse::Button" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3562 3583])
+                                    ("x" variable (:type "int") (reparse-symbol classsubparts) [3638 3654])
+                                    ("y" variable (:type "int") (reparse-symbol classsubparts) [3747 3763]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [3524 3853])
+                            ("MouseWheelEvent" type
+                               (:members 
+                                  ( ("delta" variable (:type "int") (reparse-symbol classsubparts) [4233 4243])
+                                    ("x" variable (:type "int") (reparse-symbol classsubparts) [4328 4334])
+                                    ("y" variable (:type "int") (reparse-symbol classsubparts) [4426 4432]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [4196 4521])
+                            ("MouseWheelScrollEvent" type
+                               (:members 
+                                  ( ("wheel" variable (:type ("Mouse::Wheel" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4774 4793])
+                                    ("delta" variable (:type "float") (reparse-symbol classsubparts) [4849 4868])
+                                    ("x" variable (:type "int") (reparse-symbol classsubparts) [4992 5007])
+                                    ("y" variable (:type "int") (reparse-symbol classsubparts) [5099 5114]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [4731 5203])
+                            ("JoystickConnectEvent" type
+                               (:members 
+                                  ( ("joystickId" variable (:type "unsigned int") (reparse-symbol classsubparts) [5499 5523]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [5457 5595])
+                            ("JoystickMoveEvent" type
+                               (:members 
+                                  ( ("joystickId" variable (:type "unsigned int") (reparse-symbol classsubparts) [5845 5871])
+                                    ("axis" variable (:type ("Joystick::Axis" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5945 5965])
+                                    ("position" variable (:type "float") (reparse-symbol classsubparts) [6018 6042]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [5806 6106])
+                            ("JoystickButtonEvent" type
+                               (:members 
+                                  ( ("joystickId" variable (:type "unsigned int") (reparse-symbol classsubparts) [6404 6428])
+                                    ("button" variable (:type "unsigned int") (reparse-symbol classsubparts) [6502 6522]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [6363 6624])
+                            ("TouchEvent" type
+                               (:members 
+                                  ( ("finger" variable (:type "unsigned int") (reparse-symbol classsubparts) [6876 6896])
+                                    ("x" variable (:type "int") (reparse-symbol classsubparts) [6960 6966])
+                                    ("y" variable (:type "int") (reparse-symbol classsubparts) [7060 7066]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [6844 7157])
+                            ("SensorEvent" type
+                               (:members 
+                                  ( ("type" variable (:type ("Sensor::Type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7389 7407])
+                                    ("x" variable (:type "float") (reparse-symbol classsubparts) [7440 7448])
+                                    ("y" variable (:type "float") (reparse-symbol classsubparts) [7510 7518])
+                                    ("z" variable (:type "float") (reparse-symbol classsubparts) [7580 7588]))                                  
+                                :type "struct")
+                                (reparse-symbol classsubparts) [7356 7648])
+                            ("EventType" type
+                               (:members 
+                                  ( ("Closed" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7881 7888])
+                                    ("Resized" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7962 7970])
+                                    ("LostFocus" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8043 8053])
+                                    ("GainedFocus" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8116 8128])
+                                    ("TextEntered" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8191 8203])
+                                    ("KeyPressed" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8273 8284])
+                                    ("KeyReleased" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8348 8360])
+                                    ("MouseWheelMoved" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8424 8440])
+                                    ("MouseWheelScrolled" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8530 8549])
+                                    ("MouseButtonPressed" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8629 8648])
+                                    ("MouseButtonReleased" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8721 8741])
+                                    ("MouseMoved" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8814 8825])
+                                    ("MouseEntered" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8900 8913])
+                                    ("MouseLeft" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8995 9005])
+                                    ("JoystickButtonPressed" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9087 9109])
+                                    ("JoystickButtonReleased" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9185 9208])
+                                    ("JoystickMoved" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9284 9298])
+                                    ("JoystickConnected" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9383 9401])
+                                    ("JoystickDisconnected" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9477 9498])
+                                    ("TouchBegan" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9574 9585])
+                                    ("TouchMoved" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9653 9664])
+                                    ("TouchEnded" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9726 9737])
+                                    ("SensorChanged" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9805 9819])
+                                    ("Count" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [9889 9968]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [7852 9969])
+                            ("type" variable (:type ("EventType" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10124 10139])
+                            ("" type
+                               (:members 
+                                  ( ("size" variable (:type ("SizeEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10188 10215])
+                                    ("key" variable (:type ("KeyEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10281 10307])
+                                    ("text" variable (:type ("TextEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10396 10423])
+                                    ("mouseMove" variable (:type ("MouseMoveEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10493 10525])
+                                    ("mouseButton" variable (:type ("MouseButtonEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10595 10629])
+                                    ("mouseWheel" variable (:type ("MouseWheelEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10735 10768])
+                                    ("mouseWheelScroll" variable (:type ("MouseWheelScrollEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10856 10895])
+                                    ("joystickMove" variable (:type ("JoystickMoveEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10967 11002])
+                                    ("joystickButton" variable (:type ("JoystickButtonEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11075 11112])
+                                    ("joystickConnect" variable (:type ("JoystickConnectEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11224 11262])
+                                    ("touch" variable (:type ("TouchEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11373 11401])
+                                    ("sensor" variable (:type ("SensorEvent" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11509 11538]))                                  
+                                :type "union")
+                                (reparse-symbol classsubparts) [10168 11608]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1649 11611]))                  
+                :type "namespace")
+                nil [1455 11614]))          
+      :file "Event.hpp"
+      :pointmax 13215
+      :fsize 13214
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_EVENT_HPP")
+          )
+)
+    (semanticdb-table "Joystick.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_JOYSTICK_HPP" variable (:constant-flag t) nil [1141 1158])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1293 1326])
+            ("SFML/System/String.hpp" include (:system-flag t) nil [1327 1360])
+            ("sf" type
+               (:members 
+                  ( ("Joystick" variable
+                       (:dereference 1
+                        :type ("SFML_WINDOW_API" type
+                             (:prototype t
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [1567 6229]))                  
+                :type "namespace")
+                nil [1363 6232]))          
+      :file "Joystick.hpp"
+      :pointmax 8609
+      :fsize 8608
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_JOYSTICK_HPP")
+          )
+)
+    (semanticdb-table "Keyboard.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_KEYBOARD_HPP" variable (:constant-flag t) nil [1141 1158])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1293 1326])
+            ("sf" type
+               (:members 
+                  ( ("Keyboard" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1532 6897]))                  
+                :type "namespace")
+                nil [1329 6900]))          
+      :file "Keyboard.hpp"
+      :pointmax 8220
+      :fsize 8219
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_KEYBOARD_HPP")
+          )
+)
+    (semanticdb-table "Mouse.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_MOUSE_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1287 1320])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1321 1355])
+            ("sf" type
+               (:members 
+                  ( ("Window" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1373 1386])
+                    ("Mouse" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1573 4643]))                  
+                :type "namespace")
+                nil [1358 4646]))          
+      :file "Mouse.hpp"
+      :pointmax 6322
+      :fsize 6321
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_MOUSE_HPP")
+          )
+)
+    (semanticdb-table "Sensor.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_SENSOR_HPP" variable (:constant-flag t) nil [1139 1154])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1289 1322])
+            ("SFML/System/Vector3.hpp" include (:system-flag t) nil [1323 1357])
+            ("SFML/System/Time.hpp" include (:system-flag t) nil [1358 1389])
+            ("sf" type
+               (:members 
+                  ( ("Sensor" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1594 3756]))                  
+                :type "namespace")
+                nil [1392 3759]))          
+      :file "Sensor.hpp"
+      :pointmax 5821
+      :fsize 5820
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_SENSOR_HPP")
+          )
+)
+    (semanticdb-table "Touch.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_TOUCH_HPP" variable (:constant-flag t) nil [1138 1152])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1287 1320])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1321 1355])
+            ("sf" type
+               (:members 
+                  ( ("Window" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1373 1386])
+                    ("Touch" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1575 3060]))                  
+                :type "namespace")
+                nil [1358 3063]))          
+      :file "Touch.hpp"
+      :pointmax 5038
+      :fsize 5037
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_TOUCH_HPP")
+          )
+)
+    (semanticdb-table "VideoMode.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_VIDEOMODE_HPP" variable (:constant-flag t) nil [1142 1160])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1295 1328])
+            ("vector" include (:system-flag t) nil [1329 1346])
+            ("sf" type
+               (:members 
+                  ( ("VideoMode" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1553 4214])
+                    ("==" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4595 4617])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4618 4641]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [4578 4642])
+                    ("!=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5027 5049])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5050 5073]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [5010 5074])
+                    ("<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5465 5487])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5488 5511]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [5449 5512])
+                    (">" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5904 5926])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5927 5950]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [5888 5951])
+                    ("<=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6353 6375])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6376 6399]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [6336 6400])
+                    (">=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("left" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6803 6825])
+                            ("right" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VideoMode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6826 6849]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [6786 6850]))                  
+                :type "namespace")
+                nil [1349 6853]))          
+      :file "VideoMode.hpp"
+      :pointmax 8691
+      :fsize 8690
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((symbol 6770 . 6785) (symbol 6320 . 6335) (symbol 5872 . 5887) (symbol 5433 . 5448) (symbol 4994 . 5009) (symbol 4562 . 4577))
+      :lexical-table 
+        '(("SFML_VIDEOMODE_HPP")
+          )
+)
+    (semanticdb-table "Window.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_WINDOW_HPP" variable (:constant-flag t) nil [1139 1154])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1289 1322])
+            ("SFML/Window/ContextSettings.hpp" include (:system-flag t) nil [1323 1365])
+            ("SFML/Window/VideoMode.hpp" include (:system-flag t) nil [1366 1402])
+            ("SFML/Window/WindowHandle.hpp" include (:system-flag t) nil [1403 1442])
+            ("SFML/Window/WindowStyle.hpp" include (:system-flag t) nil [1443 1481])
+            ("SFML/Window/GlResource.hpp" include (:system-flag t) nil [1482 1519])
+            ("SFML/System/Clock.hpp" include (:system-flag t) nil [1520 1552])
+            ("SFML/System/Vector2.hpp" include (:system-flag t) nil [1553 1587])
+            ("SFML/System/NonCopyable.hpp" include (:system-flag t) nil [1588 1626])
+            ("SFML/System/String.hpp" include (:system-flag t) nil [1627 1660])
+            ("sf" type
+               (:members 
+                  ( ("priv" type
+                       (:members 
+                          ( ("GlContext" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1699 1715])
+                            ("WindowImpl" type
+                               (:prototype t
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1720 1737]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1678 1739])
+                    ("Event" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1741 1753])
+                    ("GlResource" variable (:type "int") (reparse-symbol namespacesubparts) [1975 20979])
+                    ("NonCopyable" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1975 20979]))                  
+                :type "namespace")
+                nil [1663 20982]))          
+      :file "Window.hpp"
+      :pointmax 23121
+      :fsize 23120
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1973 . 1974) (symbol 1966 . 1972) (symbol 1950 . 1965) (CLASS 1944 . 1949))
+      :lexical-table 
+        '(("SFML_WINDOW_HPP")
+          )
+)
+    (semanticdb-table "WindowHandle.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_WINDOWHANDLE_HPP" variable (:constant-flag t) nil [1145 1166])
+            ("SFML/Config.hpp" include (:system-flag t) nil [1301 1327])
+            ("sf" type (:type "namespace") nil [1437 2318]))          
+      :file "WindowHandle.hpp"
+      :pointmax 2369
+      :fsize 2368
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_WINDOWHANDLE_HPP")
+          )
+)
+    (semanticdb-table "WindowStyle.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_WINDOWSTYLE_HPP" variable (:constant-flag t) nil [1144 1164])
+            ("sf" type
+               (:members 
+                  ( ("Style" type
+                       (:members 
+                          ( ("" type
+                               (:members 
+                                  ( ("None" variable
+                                       (:constant-flag t
+                                        :default-value (1446 1447)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1433 1447])
+                                    ("Titlebar" variable
+                                       (:constant-flag t
+                                        :default-value (1552 1553)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1539 1553])
+                                    ("Resize" variable
+                                       (:constant-flag t
+                                        :default-value (1611 1612)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1598 1612])
+                                    ("Close" variable
+                                       (:constant-flag t
+                                        :default-value (1692 1693)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1679 1693])
+                                    ("Fullscreen" variable
+                                       (:constant-flag t
+                                        :default-value (1751 1752)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1738 1752])
+                                    ("Default" variable
+                                       (:constant-flag t
+                                        :default-value (1849 1866)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1839 1866])
+                                    ("Close" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1869 1906]))                                  
+                                :type "enum")
+                                (reparse-symbol namespacesubparts) [1414 1907]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1182 1909]))                  
+                :type "namespace")
+                nil [1167 1912]))          
+      :file "WindowStyle.hpp"
+      :pointmax 1962
+      :fsize 1961
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax '((punctuation 1867 . 1868) (number 1756 . 1757) (punctuation 1754 . 1755) (punctuation 1753 . 1754) (number 1697 . 1698) (punctuation 1695 . 1696) (punctuation 1694 . 1695) (number 1616 . 1617) (punctuation 1614 . 1615) (punctuation 1613 . 1614) (number 1557 . 1558) (punctuation 1555 . 1556) (punctuation 1554 . 1555))
+      :lexical-table 
+        '(("SFML_WINDOWSTYLE_HPP")
+          )
+)
+    (semanticdb-table "GlResource.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_GLRESOURCE_HPP" variable (:constant-flag t) nil [1143 1162])
+            ("SFML/Window/Export.hpp" include (:system-flag t) nil [1297 1330])
+            ("sf" type
+               (:members 
+                  ( ("GlResource" variable (:type ("SFML_WINDOW_API" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1539 2219]))                  
+                :type "namespace")
+                nil [1333 2222]))          
+      :file "GlResource.hpp"
+      :pointmax 2587
+      :fsize 2586
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_GLRESOURCE_HPP")
+          )
+)
+    (semanticdb-table "Export.hpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("SFML_WINDOW_EXPORT_HPP" variable (:constant-flag t) nil [1146 1168])
+            ("SFML/Config.hpp" include (:system-flag t) nil [1303 1329])
+            ("SFML_WINDOW_API" variable (:constant-flag t) nil [1594 1609]))          
+      :file "Export.hpp"
+      :pointmax 1669
+      :fsize 1668
+      :lastmodtime '(22085 38755 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SFML_WINDOW_EXPORT_HPP")
+          ("SFML_WINDOW_API" . ((symbol "SFML_API_IMPORT" 1610 . 1625)))
+          )
+))
+  :file "!usr!include!SFML!Window!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
