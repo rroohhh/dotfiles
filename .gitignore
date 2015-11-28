@@ -1,0 +1,17 @@
+*
+!/.Xresources
+!/.bashrc
+!/.config/i3
+!/.emacs
+!/.emacs.d
+!/.fehbg
+!/.load_layout.sh
+!/.save_layout.sh
+!/.xinitrc
+!/scripts
+!/.i3blocks.conf
+!/.profile
+!/i3setup
+!/background.png
+!/i3setup
+!.gitignore
